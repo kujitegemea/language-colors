@@ -21,8 +21,8 @@ ForEach ($Line in $Content)
 		{
 			$FirstIndex = $Line.IndexOf('"')
 			$ColorValue = $Line.SubString($FirstIndex + 1, $Line.LastIndexOf('"') - $FirstIndex - 1)
-			$CurrentColorClass = "$CurrentColorClass color: $ColorValue; }"
-			$CurrentBGColorClass = "$CurrentBGColorClass background-color: $ColorValue; }"
+			$CurrentColorClass = "$CurrentColorClass color: $ColorValue !important; }"
+			$CurrentBGColorClass = "$CurrentBGColorClass background-color: $ColorValue !important; }"
 		}
 	} 
 	else 
