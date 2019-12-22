@@ -8,6 +8,7 @@ $Content = $Content.ToString().Replace('`r', '') -split "`n"
 "$Content" | out-file -filepath test/languages.yml
 $CurrentColorClass = "/** `n`tAdewale Azeez <azeezadewale98@gmail.com>`n`tMIT License`n`tCopyright (c) 2019 Quick Utils`n`t$((Get-Date).ToString())`n**/"
 $CurrentColorClass | out-file -filepath docs/language-color.css
+$CurrentColorClass | out-file -filepath index.js
 $CurrentBGColorClass = ""
 ForEach ($Line in $Content)
 {

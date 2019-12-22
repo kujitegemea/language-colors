@@ -8,7 +8,7 @@ Use CI/CD to monthly generate the colors
 
 <span style="display:block;text-align:center">![GitHub repo size](https://img.shields.io/github/repo-size/keyvaluedb/language-color)	![GitHub contributors](https://img.shields.io/github/contributors/keyvaluedb/language-color) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
 
-<p style="text-align: center;" align="center">A CSS sheet containing all the programming language colour base on GitHub linguist(https://github.com/github/linguist)</p>
+<p style="text-align: center;" align="center">A CSS and JavaScript Module containing all the programming language colour base on GitHub linguist (https://github.com/github/linguist)</p>
 
 ___
 

@@ -1,20 +1,23 @@
 {
   "name": "language-color",
   "version": "1.0.0",
-  "description": "Quick and easy manage, load, update and save key-value type database ",
+  "description": "A CSS and JavaScript Module containing all the programming language colour base on GitHub linguist",
   "main": "index.js",
   "scripts": {
-	"test": "node test/KeyValueUtilTest.js && node test/KeyValueObjectTest.js && node test/KeyValueDBTest.js && node test/key-value-db-test.js"
+    "test": "node test/test_index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keyvaluedb/key-value-db-nodejs"
+    "url": "https://quickutils.github.io/language-color/"
   },
   "keywords": [
     "color",
     "github",
     "language"
   ],
+  "dependencies": {
+    "color": "^3.1.2"
+  },
   "author": "Adewale Azeez",
   "license": "MIT"
 }
