@@ -5,6 +5,6 @@ if "%*"=="" (
 	echo commit message not specified. stopping push 
 	exit /b 0
 )
-REM git add .
-REM git commit -m "%*"
-REM git push origin master
+git add .
+git commit -m "%*"
+git push origin master
