@@ -1,0 +1,24 @@
+{
+  "name": "language-color",
+  "version": "1.0.0",
+  "description": "Quick and easy manage, load, update and save key-value type database ",
+  "main": "index.js",
+  "scripts": {
+	"test": "node test/KeyValueUtilTest.js && node test/KeyValueObjectTest.js && node test/KeyValueDBTest.js && node test/key-value-db-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvaluedb/key-value-db-nodejs"
+  },
+  "keywords": [
+    "key-value",
+    "database",
+    "nodejs",
+    "javascript",
+    "package",
+    "quick",
+    "simple"
+  ],
+  "author": "Adewale Azeez",
+  "license": "MIT"
+}

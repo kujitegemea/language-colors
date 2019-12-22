@@ -2,10 +2,9 @@
 powershell -noprofile -executionpolicy bypass -file language-color.ps1
 
 if "%*"=="" (
-	echo you need to specify your specify commit message. Example: 
-	echo deploy This is the commit message
+	echo commit message not specified. stopping push 
 	exit /b 0
 )
-git add .
-git commit -m "%*"
-git push origin master
+REM git add .
+REM git commit -m "%*"
+REM git push origin master

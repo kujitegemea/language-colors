@@ -7,7 +7,7 @@ $Content = Invoke-WebRequest -Uri $LinguistGrammerUrl -UseBasicParsing
 $Content = $Content.ToString().Replace('`r', '') -split "`n"
 "$Content" | out-file -filepath test/languages.yml
 $CurrentColorClass = "/** `n`tAdewale Azeez <azeezadewale98@gmail.com>`n`tMIT License`n`tCopyright (c) 2019 Quick Utils`n`t$((Get-Date).ToString())`n**/"
-$CurrentColorClass | out-file -filepath language-color.css
+$CurrentColorClass | out-file -filepath docs/language-color.css
 $CurrentBGColorClass = ""
 ForEach ($Line in $Content)
 {
@@ -29,8 +29,8 @@ ForEach ($Line in $Content)
 	{
 		if (-not $CurrentBGColorClass -eq "" -and $CurrentBGColorClass.Contains("background-color")) 
 		{
-			$CurrentColorClass | out-file -append -filepath language-color.css
-			$CurrentBGColorClass | out-file -append -filepath language-color.css
+			$CurrentColorClass | out-file -append -filepath docs/language-color.css
+			$CurrentBGColorClass | out-file -append -filepath docs/language-color.css
 		}
 		$CurrentColorClass = ""
 		$CurrentBGColorClass = ""
