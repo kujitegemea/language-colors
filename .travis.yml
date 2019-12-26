@@ -1,0 +1,26 @@
+language: node_js
+  
+os:
+  - windows
+  
+before_install:
+  - npm i -g npm@version-number
+  
+cache:
+  npm: false
+
+script:
+  - ./CronuxTestRunner.bat
+  - ./Cronux.bat genbuild $(./Cronux.bat version)
+  - ls ./build/$(./Cronux.bat version)/
+  
+# deploy:
+  # provider: releases
+  # skip_cleanup: true
+  # api_key: $GITHUB_TOKEN
+  # file_glob: true
+  # file:
+    # - "build/$(./Cronux.bat version)/Cronux.bat"
+    # - "build/$(./Cronux.bat version)/Cronux.$(./Cronux.bat version).zip"
+  # on:
+    # tags: true
