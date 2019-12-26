@@ -105,5 +105,5 @@ Or you can support me to continue making awesome open source projects > https://
 
 ## License
 
-MIT License Copyright (c) 2019 Adewale Azeez - language-colors
+MIT License (2019) Adewale Azeez
 
