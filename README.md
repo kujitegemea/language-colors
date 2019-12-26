@@ -1,7 +1,7 @@
 
-# <p style="text-align: center;" align="center"><img src="https://github.com/keyvaluedb/keyvaluedb.github.io/raw/master/icons/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
+# <p style="text-align:center;" align="center"><img src="https://github.com/keyvaluedb/keyvaluedb.github.io/raw/master/icons/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
-<span style="display:block;text-align:center">![GitHub repo size](https://img.shields.io/github/repo-size/keyvaluedb/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/keyvaluedb/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
+<p style="text-align:center;" align="center">![GitHub repo size](https://img.shields.io/github/repo-size/keyvaluedb/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/keyvaluedb/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</p>
 
 <p style="text-align: center;" align="center">A CSS and JavaScript Module containing all the programming language colour base on GitHub linguist (https://github.com/github/linguist)</p>
 
