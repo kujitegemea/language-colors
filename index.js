@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	12/26/2019 3:49:53 PM
+	12/26/2019 3:55:27 PM
 **/
 
 const Color = require("color")
