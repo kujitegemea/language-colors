@@ -10,7 +10,7 @@ $Content = $Content.ToString().Replace('`r', '') -split "`n"
 "$Content" | out-file -Encoding utf8 -filepath test/languages.yml
 $CurrentColorClass = "/** `n`tAdewale Azeez <azeezadewale98@gmail.com>`n`tMIT License`n`tCopyright (c) 2019 Quick Utils`n`t$((Get-Date).ToString())`n**/"
 $CurrentJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"
-$CurrentColorClass | out-file -Encoding utf8 -filepath language-color.css
+$CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.css
 $CurrentColorClass | out-file -Encoding utf8 -filepath index.js
 $CurrentJSColor | out-file -Encoding utf8 -append -filepath index.js
 $CurrentBGColorClass = ""
@@ -35,8 +35,8 @@ ForEach ($Line in $Content)
 	{
 		if (-not $CurrentBGColorClass -eq "" -and $CurrentBGColorClass.Contains("background-color")) 
 		{
-			$CurrentColorClass | out-file -Encoding utf8 -append -filepath language-color.css
-			$CurrentBGColorClass | out-file -Encoding utf8 -append -filepath language-color.css
+			$CurrentColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
+			$CurrentBGColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
 			$CurrentJSColor | out-file -Encoding utf8 -append -filepath index.js
 		}
 		$CurrentColorClass = ""

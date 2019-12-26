@@ -1,5 +1,5 @@
 {
-  "name": "language-color",
+  "name": "language-colors",
   "version": "1.0.0",
   "description": "A CSS and JavaScript Module containing all the programming language colour base on GitHub linguist",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://quickutils.github.io/language-color/"
+    "url": "https://quickutils.github.io/language-colors/"
   },
   "keywords": [
     "color",

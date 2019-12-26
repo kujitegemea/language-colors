@@ -1,6 +1,6 @@
 @echo off
-powershell -noprofile -executionpolicy bypass -file language-color.ps1
-copy .\language-color.css .\docs\
+powershell -noprofile -executionpolicy bypass -file language-colors.ps1
+copy .\language-colors.css .\docs\
 if "%*"=="" (
 	echo commit message not specified. stopping push 
 	npm test
