@@ -20,10 +20,4 @@ after_success:
   - git config user.name "Travis CI"
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  - >
-    @echo off
-    setlocal EnableDelayedExpansion
-    FOR /F "delims=" %%i IN ('git log -1 --pretty^=format:%%an') DO set today=%%i
-    if not "!today!"=="Travis CI" (
-	    echo  we good
-    )
+  - if [[ $(git log -1 --pretty=format:'%an') != "Travis CI" ]]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master
