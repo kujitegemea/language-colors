@@ -21,5 +21,5 @@ after_success:
   - git config --global user.password "${GITHUB_TOKEN}"
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  - git remote add origin-pages https://quickutils:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git
+  - git remote add origin-pages https://${GITHUB_TOKEN}@github.com/quickutils/language-colors.git
   - git push origin master
