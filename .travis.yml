@@ -18,7 +18,8 @@ script:
 after_success:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
+  - git config --global user.password "${GITHUB_TOKEN}"
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
   - git remote add origin-pages https://quickutils:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git
-  - git push https://quickutils:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master
+  - git push origin master

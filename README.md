@@ -46,7 +46,7 @@ npm install language-colors
 Using bower:
 
 ```bash
-bower install language-colors 
+bower install language-colors
 ```
 
 Using yarn:
