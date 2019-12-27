@@ -19,6 +19,6 @@ after_success:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git add .
-  - git commit --allow-empty -m "Travis build: $TRAVIS_BUILD_NUMBER, Auto update from Travis CI."
-  - git remote add origin-pages https://${GITHUB_TOKEN}@github.com/quickutils/language-colors.git > /dev/null 2>&1
+  - git commit -m "Travis build: ${TRAVIS_BUILD_NUMBER}, Auto update from Travis CI."
+  - git remote add origin-pages https://${GITHUB_TOKEN}@github.com/quickutils/language-colors.git
   - git push --set-upstream origin-pages master
