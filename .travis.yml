@@ -20,5 +20,6 @@ after_success:
   - git config user.name "Travis CI"
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
+  - echo $(git log -1 --pretty=format:'%an')
   - if [[ $(git log -1 --pretty=format:'%an') != "Travis CI" ]]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
