@@ -7,6 +7,8 @@
 
 The colours are updated monthly.
 
+All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html)
+
 ___
 
 ## Table of content
@@ -53,6 +55,14 @@ Using yarn:
 
 ```bash
 yarn add language-colors
+```
+
+### Browser
+
+Add the script from the repository website. 
+
+```html
+<script src="https://quickutils.github.io/language-colors/language-colors.js"></script>
 ```
 
 ## Usage
