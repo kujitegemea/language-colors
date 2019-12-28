@@ -1,5 +1,5 @@
 
-# <p style="text-align:center;" align="center"><img src="https://github.com/keyvaluedb/keyvaluedb.github.io/raw/master/icons/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
+# <p style="text-align:center;" align="center"><img src="https://quickutils.github.io/language-color/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
 <span style="display:block;text-align:center">![GitHub repo size](https://img.shields.io/github/repo-size/keyvaluedb/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/keyvaluedb/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/opensourceprojs?style=social)](https://twitter.com/opensourceprojs) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
 
@@ -15,6 +15,7 @@ ___
 - [Installation](#installation)
 	- [CSS](#css)
 	- [NodeJS](#nodejs)
+	- [Browser](#browser)
 - [Usage](#usage)
 - [Wiki](#wiki)
 - [Contributing](#contributing)
@@ -74,6 +75,8 @@ Add the script from the repository website.
  - [CSS List of Programming Languages colors values. Foreground and Background](https://github.com/quickutils/language-color/wiki/CSS-List-of-Programming-Languages-colors-values.-Foreground-and-Background)
 
  - [NodeJS List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/NodeJS-List-of-Programming-Languages-colors-values)
+ 
+ - [Browser JavaScript List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/Browser-JavaScript-List-of-Programming-Languages-colors-values)
 
 ## Contributing
 
