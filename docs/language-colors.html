@@ -1,18 +1,30 @@
 <html>
+<head>
 
+<style>
+.color-panel {
+	width:150px;
+	height:150px;
+	margin:5px;
+	color:white;
+	padding: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+</style>
+</head>
 <body>
-<div id="content" style="display: flex;justify-content: flex-start;flex-wrap: wrap;">
+	<div id="content" style="display: flex;justify-content: flex-start;flex-wrap: wrap;">
 
-</div>
+	</div>
 </body>
-<script src="./language-colors/language-colors.js"></script>
+<script src="https://quickutils.github.io/language-colors/language-colors.js"></script>
 <script>
 var a = 0;
 for (const color of Object.values(LanguageColors)) {
-	//Object.keys(LanguageColors)[a] + " " + color + "</br>"
 	document.getElementById('content').innerHTML += (`
-	<div style="width:100px;height:100px;">
-		Hello
+	<div class="color-panel" style="background-color:${color};">
+		${Object.keys(LanguageColors)[a] + "</br>" + color}
 	</div>
 	`);
 	a++;
