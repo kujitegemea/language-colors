@@ -83,6 +83,16 @@ The release on github, npm registry and github page is automated using [Travis-C
 
 If any issue or bug is detected you can open an issue [here](https://github.com/quickutils/language-colors/issues/new).
 
+Whatever changes you made to the auto generated sources will be over written by Travis-CI update push.
+
+The following files are auto generated 
+
+- language-colors.css
+- language-colors.js
+- index.js
+- docs/language-colors.css
+- docs/language-colors.js
+
 
 ## Support
 
