@@ -1,0 +1,21 @@
+<html>
+
+<body>
+<div id="content" style="display: flex;justify-content: flex-start;flex-wrap: wrap;">
+
+</div>
+</body>
+<script src="./language-colors/language-colors.js"></script>
+<script>
+var a = 0;
+for (const color of Object.values(LanguageColors)) {
+	//Object.keys(LanguageColors)[a] + " " + color + "</br>"
+	document.getElementById('content').innerHTML += (`
+	<div style="width:100px;height:100px;">
+		Hello
+	</div>
+	`);
+	a++;
+}
+</script>
+</html>
