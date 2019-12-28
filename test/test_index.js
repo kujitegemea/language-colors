@@ -1,5 +1,5 @@
 
-const LanguageColor = require("../index.js")
+const LanguageColors = require("../index.js")
 
-for (const color of Object.values(LanguageColor))
+for (const color of Object.values(LanguageColors))
 	console.log(color);

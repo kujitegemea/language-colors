@@ -9,10 +9,13 @@ $Content = Invoke-WebRequest -Uri $LinguistGrammerUrl -UseBasicParsing
 $Content = $Content.ToString().Replace('`r', '') -split "`n"
 "$Content" | out-file -Encoding utf8 -filepath test/languages.yml
 $CurrentColorClass = "/** `n`tAdewale Azeez <azeezadewale98@gmail.com>`n`tMIT License`n`tCopyright (c) 2019 Quick Utils`n`t$((Get-Date).ToString())`n**/`n/**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/`n"
-$CurrentJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"
+$CurrentJSColor = "`nconst LanguageColors = {"
+$CurrentNodeJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"
 $CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.css
+$CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.js
 $CurrentColorClass | out-file -Encoding utf8 -filepath index.js
-$CurrentJSColor | out-file -Encoding utf8 -append -filepath index.js
+$CurrentJSColor | out-file -Encoding utf8 -append -filepath language-colors.js
+$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath index.js
 $CurrentBGColorClass = ""
 ForEach ($Line in $Content)
 {
@@ -28,7 +31,8 @@ ForEach ($Line in $Content)
 			$ColorValue = $Line.SubString($FirstIndex + 1, $Line.LastIndexOf('"') - $FirstIndex - 1)
 			$CurrentColorClass = "$CurrentColorClass color: $ColorValue !important; }"
 			$CurrentBGColorClass = "$CurrentBGColorClass background-color: $ColorValue !important; }"
-			$CurrentJSColor = "$CurrentJSColor : Color('$ColorValue'),"
+			$CurrentNodeJSColor = "$CurrentNodeJSColor : Color('$ColorValue'),"
+			$CurrentJSColor = "$CurrentJSColor : `"$ColorValue`","
 		}
 	} 
 	else 
@@ -37,7 +41,8 @@ ForEach ($Line in $Content)
 		{
 			$CurrentColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
 			$CurrentBGColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
-			$CurrentJSColor | out-file -Encoding utf8 -append -filepath index.js
+			$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath index.js
+			$CurrentJSColor | out-file -Encoding utf8 -append -filepath language-colors.js
 		}
 		$CurrentColorClass = ""
 		$CurrentBGColorClass = ""
@@ -52,8 +57,10 @@ ForEach ($Line in $Content)
 		}
 		$CurrentColorClass = ".color-$LanguageClassName {"
 		$LanguageClassName = $LanguageClassName.Replace('-', '_')
+		$CurrentNodeJSColor = "    $LanguageClassName"
 		$CurrentJSColor = "    $LanguageClassName"
 		$CurrentBGColorClass = ".bg-color-$LanguageClassName {"
 	}
 }
 "}" | out-file -Encoding utf8 -append -filepath index.js
+"}" | out-file -Encoding utf8 -append -filepath language-colors.js
