@@ -15,7 +15,7 @@ cache:
 script:
   - ./deploy.bat
   
-before_install:
+after_install:
   - ls
   - rm -r ./node_modules/ 
   - ls
