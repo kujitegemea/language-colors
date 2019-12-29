@@ -15,7 +15,7 @@ cache:
 script:
   - ./deploy.bat
   - npm install -g json
-  - json -I -f package.json -e 'this.version="1.process.env.TRAVIS_BUILD_NUMBER.0"'
+  - json -I -f package.json -e 'this.version="1"+process.env.TRAVIS_BUILD_NUMBER+"0"'
   
 after_success:
   - git config user.email "azeezadewale98@gmail.com"
