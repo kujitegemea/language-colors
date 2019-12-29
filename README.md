@@ -1,9 +1,9 @@
 
 # <p style="text-align:center;" align="center"><img src="https://quickutils.github.io/language-colors/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
-<span style="display:block;text-align:center">[![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors) [![npm](https://img.shields.io/npm/dw/language-colors)](https://www.npmjs.com/package/language-colors) ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/opensourceprojs?style=social)](https://twitter.com/opensourceprojs) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
+<span style="display:block;text-align:center">[![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors) [![npm](https://img.shields.io/npm/dy/language-colors)](https://www.npmjs.com/package/language-colors) ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/opensourceprojs?style=social)](https://twitter.com/opensourceprojs) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
 
-<p style="text-align: center;" align="center">A CSS and JavaScript Module containing all the programming language colour base on GitHub linguist (https://github.com/github/linguist)</p>
+<p style="text-align: center;" align="center">AGitHub color codes for programming languages. CSS, NodeJS and Browser. Base on GitHub linguist (https://github.com/github/linguist)</p>
 
 The colours are updated monthly.
 
