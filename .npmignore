@@ -7,6 +7,7 @@
 *build/
 
 /test/
+/docs/
 /node_modules/
 
 *.zip
@@ -17,3 +18,6 @@
 *.db
 *.egg-info
 *.ps1
+*.bat
+*.yml
+*.gitattributes

@@ -1,2 +1,4 @@
 /node_modules/
+*language-colors-*
+
 *.tgz
