@@ -1,7 +1,7 @@
 {
   "name": "language-colors",
   "version": "1.0.1",
-  "description": "GitHub color codes for programming languages. CSS, NodeJS and Browser",
+  "description": "GitHub programming languages color codes in CSS, NodeJS and Javascript",
   "main": "index.js",
   "scripts": {
     "test": "node test/test_index.js"
