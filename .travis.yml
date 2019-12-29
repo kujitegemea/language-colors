@@ -16,7 +16,6 @@ script:
   - ./deploy.bat
   
 after_success:
-  - echo $MY_ENV
   - git config user.email "azeezadewale98@gmail.com"
   - git config user.name "Travis CI"
   - NAME=$(git log -1 --pretty=format:'%an')
@@ -28,6 +27,7 @@ deploy:
   provider: npm
   email: "azeezadewale98@gmail.com"
   api_key: "${NPM_TOKEN}"
+  script: echo "$NAME"
   on:
-    branch: release
+    branch: master
     #condition: "$(git log -1 --pretty=format:'%an')" != "Travis CI"
