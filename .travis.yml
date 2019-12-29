@@ -15,6 +15,11 @@ cache:
 script:
   - ./deploy.bat
   
+before_install:
+  - ls
+  - rm -r ./node_modules/ 
+  - ls
+  
 after_success:
   - git config user.email "azeezadewale98@gmail.com"
   - git config user.name "Travis CI"
