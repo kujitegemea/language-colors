@@ -27,8 +27,8 @@ after_success:
   
 deploy:
   - provider: npm
-      email: "azeezadewale98@gmail.com"
-      api_key: "${NPM_TOKEN}"
-      on:
-        branch: master
-        condition: "$(git log -1 --pretty=format:%an) = 'Travis CI'"
+    email: "azeezadewale98@gmail.com"
+    api_key: "${NPM_TOKEN}"
+    on:
+      branch: master
+      condition: "$(git log -1 --pretty=format:%an) = 'Travis CI'"
