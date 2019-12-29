@@ -35,4 +35,4 @@ deploy:
   script: sudo chown -R $(whoami) C:/Users/travis/.npmrc
   on:
     branch: master
-    condition: "$(git log -1 --pretty=format:'%an')" == "Travis CI"
+    condition: "$(git log -1 --pretty=format:'%an') = 'Travis CI'"
