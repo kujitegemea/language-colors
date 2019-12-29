@@ -29,4 +29,4 @@ deploy:
   api_key: "${NPM_TOKEN}"
   on:
     branch: release
-    condition: "$(git log -1 --pretty=format:'%an')" != "Travis CI"
+    script: "$(git log -1 --pretty=format:'%an')" != "Travis CI"
