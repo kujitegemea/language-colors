@@ -14,6 +14,8 @@ cache:
 
 script:
   - ./deploy.bat
+  - npm install -g json
+  - json -I -f package.json -e 'this.version="1.${TRAVIS_BUILD_NUMBER}.0"'
   
 after_success:
   - git config user.email "azeezadewale98@gmail.com"
@@ -22,12 +24,8 @@ after_success:
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
   - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
-  - ls
-  - rm -r ./node_modules/ 
-  - ls
   
 deploy:
-  - script: echo $NAME
   - provider: npm
       email: "azeezadewale98@gmail.com"
       api_key: "${NPM_TOKEN}"
