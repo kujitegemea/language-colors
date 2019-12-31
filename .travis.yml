@@ -17,7 +17,7 @@ cache:
   npm: false
 
 script:
-  - ./deploy.bat
+  - ./exec.bat
   - npm install -g json
   - json -I -f package.json -e 'this.version="1."+process.env.TRAVIS_BUILD_NUMBER+".0"'
   - cat package.json
