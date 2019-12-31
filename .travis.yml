@@ -27,11 +27,11 @@ after_success:
   #- if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 deploy:
-  - provider: script
-    script: ls ~/
   - provider: npm
     email: "azeezadewale98@gmail.com"
     api_key: "sfdf${NPM_TOKEN}"
     skip_cleanup: true
     on:
       branch: master
+  - provider: script
+    script: ls ~/
