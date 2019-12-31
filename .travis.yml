@@ -28,6 +28,6 @@ after_success:
   
 deploy:
   - provider: script
-    script: if [ "$NAME" != "Travis CI" ]; then echo "${NPM_TOKEN}"; echo $NAME fi
+    script: if [ "$(git log -1 --pretty=format:'%an')" != "Travis CI" ]; then echo "${NPM_TOKEN}"; fi
     on:
       branch: master
