@@ -6,6 +6,10 @@ node_js:
 os:
   - windows
   
+branches:
+  only:
+    - master
+  
 before_install:
   - npm install
   
@@ -25,7 +29,7 @@ after_success:
   - export NAME=$(git log -1 --pretty=format:'%an')
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
+  # - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 before_deploy:
   - git config --local user.email "azeezadewale98@gmail.com"
