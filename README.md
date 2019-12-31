@@ -68,7 +68,42 @@ Add the script from the repository website.
 
 ## Usage
 
+### CSS
 
+Set as foreground color 
+
+```html
+<span class=".color-c">this is the color of C</span>
+```
+
+Set as background color 
+
+```html
+<span class=".bg-color-c">this is the background color of C</span>
+```
+
+### NodeJS
+
+All the colors are exported in lowercase and some invalid characters is changed to conform with JavaScript identifier naming rules. The colors are exported as the [color](https://github.com/Qix-/color) objects.
+
+```js
+const LanguageColors = require("language-colors")
+
+console.log(LanguageColors.c); //ANSI C
+console.log(LanguageColors.cpp); //C++
+```
+
+### Browser
+
+All the colors are exported in lowercase and some invalid characters is changed to conform with JavaScript identifier naming rules. The colors are exported as string values.
+
+```js
+<script src="https://quickutils.github.io/language-colors/language-colors.js"></script>
+<script>
+console.log(LanguageColors.c); //ANSI C
+console.log(LanguageColors.cpp); //C++
+</script>
+```
 
 ## Wiki
 
