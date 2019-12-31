@@ -27,9 +27,7 @@ after_success:
   - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 deploy:
-  - provider: npm
-    email: "azeezadewale98@gmail.com"
-    api_key: "${NPM_TOKEN}"
+  - provider: script
+    script: if [ "$NAME" != "Travis CI" ]; then echo "${NPM_TOKEN}"; echo $NAME fi
     on:
       branch: master
-      condition: "$(git log -1 --pretty=format:%an) = 'Travis CI'"
