@@ -29,26 +29,31 @@ after_success:
   - export NAME=$(git log -1 --pretty=format:'%an')
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  - export TRAVIS_TAG=v1.$TRAVIS_BUILD_NUMBER.0
-  - export TRAVIS_TAG=$TRAVIS_TAG-$(date +'%Y%m%d%H%M%S')
-  - echo $TRAVIS_TAG
-  # - git tag $TRAVIS_TAG
+  # - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
-# deploy:
-  # - provider: releases
-    # skip_cleanup: true
-    # api_key: $GITHUB_TOKEN
-    # file_glob: true
-    # body: The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
-    # file:
-    # - "language-colors.css"
-    # - "language-colors.js"
-    # - "language-colors-1.${TRAVIS_BUILD_NUMBER}.0.tgz"
-    # - "language-colors.ps1"
-  # - provider: npm
-    # email: "azeezadewale98@gmail.com"
-    # api_key: "${NPM_TOKEN}"
-    # allow_failure: true
-    # skip_cleanup: true
-    # on:
-      # branch: master
+before_deploy:
+  if ! [[ $TRAVIS_TAG ]]; then
+    export TRAVIS_TAG="1.$TRAVIS_BUILD_NUMBER.0" &&
+    git config --local user.email "azeezadewale98@gmail.com" &&
+    git config --local user.name "Travis CI" &&
+    git tag $TRAVIS_TAG
+  fi
+  
+deploy:
+  - provider: releases
+    skip_cleanup: true
+    api_key: $GITHUB_TOKEN
+    file_glob: true
+    body: The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
+    file:
+    - "language-colors.css"
+    - "language-colors.js"
+    - "language-colors-1.${TRAVIS_BUILD_NUMBER}.0.tgz"
+    - "language-colors.ps1"
+  - provider: npm
+    email: "azeezadewale98@gmail.com"
+    api_key: "${NPM_TOKEN}"
+    allow_failure: true
+    skip_cleanup: true
+    on:
+      branch: master
