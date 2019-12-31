@@ -25,7 +25,7 @@ after_success:
   - export NAME=$(git log -1 --pretty=format:'%an')
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  # - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
+  - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 before_deploy:
   - git config --local user.email "azeezadewale98@gmail.com"
@@ -53,10 +53,10 @@ deploy:
     - "language-colors.js"
     - "language-colors-1.${TRAVIS_BUILD_NUMBER}.0.tgz"
     - "language-colors.ps1"
-  # - provider: npm
-    # email: "azeezadewale98@gmail.com"
-    # api_key: "${NPM_TOKEN}"
-    # allow_failure: true
-    # skip_cleanup: true
-    # on:
-      # branch: master
+  - provider: npm
+    email: "azeezadewale98@gmail.com"
+    api_key: "${NPM_TOKEN}"
+    allow_failure: true
+    skip_cleanup: true
+    on:
+      branch: master
