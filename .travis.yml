@@ -29,8 +29,7 @@ after_success:
 deploy:
   - provider: npm
     email: "azeezadewale98@gmail.com"
-    api_key: "sfdf${NPM_TOKEN}"
+    api_key: "${NPM_TOKEN}"
     skip_cleanup: true
-    script: ls ~/
     on:
       branch: master
