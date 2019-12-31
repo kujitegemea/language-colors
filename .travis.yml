@@ -35,6 +35,7 @@ before_deploy:
   - git config --local user.email "azeezadewale98@gmail.com"
   - git config --local user.name "Travis CI"
   - export TRAVIS_TAG=v1.$TRAVIS_BUILD_NUMBER.0
+  - TRAVIS_TAG=${TRAVIS_TAG-$(date +'%Y%m%d%H%M%S')}
   - echo $TRAVIS_TAG
   - git tag $TRAVIS_TAG
   
