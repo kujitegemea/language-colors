@@ -26,7 +26,9 @@ after_success:
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
   #- if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
-before_deploy: "echo 'ready?'"; ls ~/
+before_deploy: 
+  - "echo 'ready?'"
+  - ls ~/
   
 deploy:
   - provider: npm
