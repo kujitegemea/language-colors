@@ -27,7 +27,7 @@ after_success:
   #- if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 before_deploy: 
-  - "echo 'ready?'"
+  - echo > ~/.npmrc
   - ls ~/
   
 deploy:
