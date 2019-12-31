@@ -28,5 +28,6 @@ after_success:
   
 deploy:
   - provider: script
+    script: ./deploy.bat
     on:
       branch: master
