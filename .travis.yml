@@ -30,24 +30,14 @@ after_success:
 before_deploy:
   - git config --local user.email "azeezadewale98@gmail.com"
   - git config --local user.name "Travis CI"
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
-  - echo $TRAVIS_TAG
-  - git tag $TRAVIS_TAG
+  - git tag v1.$TRAVIS_BUILD_NUMBER.0
   
 deploy:
   - provider: releases
     skip_cleanup: true
     api_key: $GITHUB_TOKEN
     file_glob: true
-    body: |
-     The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
-     
-     [CSS List of Programming Languages colors values. Foreground and Background](https://github.com/quickutils/language-colors/wiki/CSS-List-of-Programming-Languages-colors-values.-Foreground-and-Background)
-         
-     [NodeJS List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/NodeJS-List-of-Programming-Languages-colors-values)
-         
-     [Browser JavaScript List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/Browser-JavaScript-List-of-Programming-Languages-colors-values)
-        
+    body: The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
     file:
     - "language-colors.css"
     - "language-colors.js"
