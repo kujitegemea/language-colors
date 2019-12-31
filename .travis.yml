@@ -29,7 +29,7 @@ after_success:
 deploy:
   - provider: npm
     email: "azeezadewale98@gmail.com"
-    api_key: "rer${NPM_TOKEN}"
+    api_key: "${NPM_TOKEN}"
     edge: true
     skip_cleanup: true
     on:
