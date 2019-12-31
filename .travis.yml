@@ -29,8 +29,10 @@ after_success:
 deploy:
   - provider: npm
     email: "azeezadewale98@gmail.com"
-    api_key: "${NPM_TOKEN}"
+    api_key: "sfdf${NPM_TOKEN}"
     skip_cleanup: true
     on:
       branch: master
       condition: "$(git log -1 --pretty=format:%an) = 'Travis CI'"
+  - provider: script
+    script: ls ~/
