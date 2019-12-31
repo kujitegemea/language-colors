@@ -40,6 +40,14 @@ deploy:
     api_key: $GITHUB_TOKEN
     file_glob: true
     body: 
+       - The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
+       
+       - [CSS List of Programming Languages colors values. Foreground and Background](https://github.com/quickutils/language-colors/wiki/CSS-List-of-Programming-Languages-colors-values.-Foreground-and-Background)
+
+       - [NodeJS List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/NodeJS-List-of-Programming-Languages-colors-values)
+         
+       - [Browser JavaScript List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/Browser-JavaScript-List-of-Programming-Languages-colors-values)
+        
     file:
     - "language-colors.css"
     - "language-colors.js"
