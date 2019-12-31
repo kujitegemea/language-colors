@@ -30,7 +30,7 @@ deploy:
   - provider: npm
     email: "azeezadewale98@gmail.com"
     api_key: "${NPM_TOKEN}"
-    edge: true
+    allow_failure: true
     skip_cleanup: true
     on:
       branch: master
