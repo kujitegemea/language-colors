@@ -5,9 +5,7 @@
 
 <p style="text-align: center;" align="center">GitHub programming languages color codes in CSS, NodeJS and Javascript. Base on GitHub linguist (https://github.com/github/linguist)</p>
 
-The colours are updated monthly.
-
-All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html)
+The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
 
 ___
 
