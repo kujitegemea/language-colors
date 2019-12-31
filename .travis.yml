@@ -43,8 +43,6 @@ deploy:
     - "language-colors.js"
     - "language-colors-1.${TRAVIS_BUILD_NUMBER}.0.tgz"
     - "language-colors.ps1"
-    on:
-      tags: true
   - provider: npm
     email: "azeezadewale98@gmail.com"
     api_key: "${NPM_TOKEN}"
