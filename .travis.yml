@@ -31,9 +31,6 @@ deploy:
     email: "azeezadewale98@gmail.com"
     api_key: "sfdf${NPM_TOKEN}"
     skip_cleanup: true
+    script: ls ~/
     on:
       branch: master
-  
-after_deploy: 
-  - echo > ~/.npmrc
-  - ls ~/
