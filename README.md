@@ -71,13 +71,13 @@ Add the script from the repository website.
 Set as foreground color 
 
 ```html
-<span class=".color-c">this is the color of C</span>
+<span class="color-c">this is the color of C</span>
 ```
 
 Set as background color 
 
 ```html
-<span class=".bg-color-c">this is the background color of C</span>
+<span class="bg-color-c">this is the background color of C</span>
 ```
 
 ### NodeJS
