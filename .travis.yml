@@ -36,7 +36,7 @@ before_deploy:
     export TRAVIS_TAG="1.$TRAVIS_BUILD_NUMBER.0" &&
     git config --local user.email "azeezadewale98@gmail.com" &&
     git config --local user.name "Travis CI" &&
-    git tag $TRAVIS_TAG
+    git tag $TRAVIS_TAG;
   fi
   
 deploy:
