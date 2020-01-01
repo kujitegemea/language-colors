@@ -17,26 +17,29 @@ cache:
   npm: false
 
 script:
+  - export NAME=$(git log -1 --pretty=format:'%an')
   - ./exec.bat
   - npm install -g json
-  - json -I -f package.json -e 'this.version="1."+process.env.TRAVIS_BUILD_NUMBER+".0"'
+  - if [ "$NAME" != "Travis CI" ]; then json -I -f package.json -e 'this.version="1."+process.env.TRAVIS_BUILD_NUMBER+".0"'; fi
   - cat package.json
   - npm pack
   
 after_success:
+  - export NAME=$(git log -1 --pretty=format:'%an')
   - git config --local user.email "azeezadewale98@gmail.com"
   - git config --local user.name "Travis CI"
-  - export NAME=$(git log -1 --pretty=format:'%an')
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
-  # - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
+  - if [ "$NAME" != "Travis CI" ]; then git push https://Thecarisma:${GITHUB_TOKEN}@github.com/quickutils/language-colors.git HEAD:master; fi
   
 before_deploy:
-  if ! [[ $TRAVIS_TAG ]]; then
-    export TRAVIS_TAG="1.$TRAVIS_BUILD_NUMBER.0" &&
-    git config --local user.email "azeezadewale98@gmail.com" &&
-    git config --local user.name "Travis CI" &&
-    git tag $TRAVIS_TAG;
+  if [ "$(git log -1 --pretty=format:'%an')" != "Travis CI" ];  then
+    if ! [[ $TRAVIS_TAG ]]; then
+      export TRAVIS_TAG=v1.$TRAVIS_BUILD_NUMBER.0 &&
+      git config --local user.email "azeezadewale98@gmail.com" &&
+      git config --local user.name "Travis CI" &&
+      git tag $TRAVIS_TAG;
+    fi
   fi
   
 deploy:
@@ -44,6 +47,7 @@ deploy:
     skip_cleanup: true
     api_key: $GITHUB_TOKEN
     file_glob: true
+    allow_failure: true
     body: The colors are updated monthly. All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
     file:
     - "language-colors.css"
