@@ -55,7 +55,9 @@ deploy:
   - provider: npm
     email: "azeezadewale98@gmail.com"
     api_key: "${NPM_TOKEN}"
-    allow_failure: true
+    edge:
+      source: 'native-api/dpl'
+      branch: 'fix_eaccess'
     skip_cleanup: true
     on:
       branch: master
