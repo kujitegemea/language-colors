@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	1/1/2020 3:20:09 PM
+	2/4/2020 9:16:31 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -77,6 +77,7 @@ module.exports = {
     factor : Color('#636746'),
     fancy : Color('#7b9db4'),
     fantom : Color('#14253c'),
+    faust : Color('#c37240'),
     forth : Color('#341708'),
     fortran : Color('#4d41b1'),
     freemarker : Color('#0050b2'),
@@ -158,6 +159,7 @@ module.exports = {
     objective_c : Color('#438eff'),
     objective_cpp : Color('#6866fb'),
     objective_j : Color('#ff0c5a'),
+    odin : Color('#60AFFE'),
     omgrofl : Color('#cabbff'),
     opal : Color('#f7ede0'),
     oxygene : Color('#cdd0e3'),
@@ -172,7 +174,6 @@ module.exports = {
     pawn : Color('#dbb284'),
     pep8 : Color('#C76F5B'),
     perl : Color('#0298c3'),
-    perl_6 : Color('#0000fb'),
     piglatin : Color('#fcd7de'),
     pike : Color('#005390'),
     pogoscript : Color('#d80074'),
@@ -193,6 +194,7 @@ module.exports = {
     runoff : Color('#665a4e'),
     racket : Color('#3c5caa'),
     ragel : Color('#9d5200'),
+    raku : Color('#0000fb'),
     rascal : Color('#fffaa0'),
     reason : Color('#ff5847'),
     rebol : Color('#358a5b'),
@@ -222,6 +224,7 @@ module.exports = {
     squirrel : Color('#800000'),
     stan : Color('#b2011d'),
     standard_ml : Color('#dc566d'),
+    starlark : Color('#76d275'),
     supercollider : Color('#46390b'),
     swift : Color('#ffac45'),
     systemverilog : Color('#DAE1C2'),
