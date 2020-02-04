@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	1/1/2020 3:20:09 PM
+	2/4/2020 9:10:44 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -140,6 +140,8 @@
 .bg-color-fancy { background-color: #7b9db4 !important; }
 .color-fantom { color: #14253c !important; }
 .bg-color-fantom { background-color: #14253c !important; }
+.color-faust { color: #c37240 !important; }
+.bg-color-faust { background-color: #c37240 !important; }
 .color-forth { color: #341708 !important; }
 .bg-color-forth { background-color: #341708 !important; }
 .color-fortran { color: #4d41b1 !important; }
@@ -302,6 +304,8 @@
 .bg-color-objective_cpp { background-color: #6866fb !important; }
 .color-objective-j { color: #ff0c5a !important; }
 .bg-color-objective_j { background-color: #ff0c5a !important; }
+.color-odin { color: #60AFFE !important; }
+.bg-color-odin { background-color: #60AFFE !important; }
 .color-omgrofl { color: #cabbff !important; }
 .bg-color-omgrofl { background-color: #cabbff !important; }
 .color-opal { color: #f7ede0 !important; }
@@ -330,8 +334,6 @@
 .bg-color-pep8 { background-color: #C76F5B !important; }
 .color-perl { color: #0298c3 !important; }
 .bg-color-perl { background-color: #0298c3 !important; }
-.color-perl-6 { color: #0000fb !important; }
-.bg-color-perl_6 { background-color: #0000fb !important; }
 .color-piglatin { color: #fcd7de !important; }
 .bg-color-piglatin { background-color: #fcd7de !important; }
 .color-pike { color: #005390 !important; }
@@ -372,6 +374,8 @@
 .bg-color-racket { background-color: #3c5caa !important; }
 .color-ragel { color: #9d5200 !important; }
 .bg-color-ragel { background-color: #9d5200 !important; }
+.color-raku { color: #0000fb !important; }
+.bg-color-raku { background-color: #0000fb !important; }
 .color-rascal { color: #fffaa0 !important; }
 .bg-color-rascal { background-color: #fffaa0 !important; }
 .color-reason { color: #ff5847 !important; }
@@ -430,6 +434,8 @@
 .bg-color-stan { background-color: #b2011d !important; }
 .color-standard-ml { color: #dc566d !important; }
 .bg-color-standard_ml { background-color: #dc566d !important; }
+.color-starlark { color: #76d275 !important; }
+.bg-color-starlark { background-color: #76d275 !important; }
 .color-supercollider { color: #46390b !important; }
 .bg-color-supercollider { background-color: #46390b !important; }
 .color-swift { color: #ffac45 !important; }

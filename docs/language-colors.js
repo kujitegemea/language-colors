@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	1/1/2020 3:20:09 PM
+	2/4/2020 9:10:44 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -75,6 +75,7 @@ const LanguageColors = {
     factor : "#636746",
     fancy : "#7b9db4",
     fantom : "#14253c",
+    faust : "#c37240",
     forth : "#341708",
     fortran : "#4d41b1",
     freemarker : "#0050b2",
@@ -156,6 +157,7 @@ const LanguageColors = {
     objective_c : "#438eff",
     objective_cpp : "#6866fb",
     objective_j : "#ff0c5a",
+    odin : "#60AFFE",
     omgrofl : "#cabbff",
     opal : "#f7ede0",
     oxygene : "#cdd0e3",
@@ -170,7 +172,6 @@ const LanguageColors = {
     pawn : "#dbb284",
     pep8 : "#C76F5B",
     perl : "#0298c3",
-    perl_6 : "#0000fb",
     piglatin : "#fcd7de",
     pike : "#005390",
     pogoscript : "#d80074",
@@ -191,6 +192,7 @@ const LanguageColors = {
     runoff : "#665a4e",
     racket : "#3c5caa",
     ragel : "#9d5200",
+    raku : "#0000fb",
     rascal : "#fffaa0",
     reason : "#ff5847",
     rebol : "#358a5b",
@@ -220,6 +222,7 @@ const LanguageColors = {
     squirrel : "#800000",
     stan : "#b2011d",
     standard_ml : "#dc566d",
+    starlark : "#76d275",
     supercollider : "#46390b",
     swift : "#ffac45",
     systemverilog : "#DAE1C2",
