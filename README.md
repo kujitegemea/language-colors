@@ -1,7 +1,7 @@
 
 # <p style="text-align:center;" align="center"><img src="https://quickutils.github.io/language-colors/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
-<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/quickutils/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarismajs?style=social)](https://twitter.com/iamthecarisma) [![Support on Patreon](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=$5&color=brightgreen)](https://www.patreon.com/join/thecarisma/checkout?rid=3556842)</span>
+<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/quickutils/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarismajs?style=social)](https://twitter.com/iamthecarisma)</span>
 
 <p style="text-align: center;" align="center">GitHub programming languages color codes in CSS, NodeJS and Javascript. Base on GitHub linguist (https://github.com/github/linguist)</p>
 
@@ -132,12 +132,11 @@ The following files are auto generated
 
 ## Support
 
-You can support some of this community as they make big impact in getting people started with software development and open source.
+## Support
+
+You can support some of this community as they make big impact in the traing of individual to get started with software engineering and open source contribution.
 
 - [https://www.patreon.com/devcareer](https://www.patreon.com/devcareer)
-- [https://opencollective.com/osca](https://opencollective.com/osca)
-
-Or you can support me to continue making awesome open source projects > [https://patreon.com/thecarisma](https://patreon.com/thecarisma). Thanks!
 
 **You can make big difference**.
 
