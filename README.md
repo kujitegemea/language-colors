@@ -1,7 +1,7 @@
 
 # <p style="text-align:center;" align="center"><img src="https://quickutils.github.io/language-colors/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
-<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/quickutils/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarismajs?style=social)](https://twitter.com/iamthecarisma)</span>
+<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/quickutils/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma)</span>
 
 <p style="text-align: center;" align="center">GitHub programming languages color codes in CSS, NodeJS and Javascript. Base on GitHub linguist (https://github.com/github/linguist)</p>
 
