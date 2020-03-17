@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/10/2020 9:18:35 AM
+	3/17/2020 9:19:09 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -160,6 +160,7 @@ const LanguageColors = {
     odin : "#60AFFE",
     omgrofl : "#cabbff",
     opal : "#f7ede0",
+    openqasm : "#AA70FF",
     oxygene : "#cdd0e3",
     oz : "#fab738",
     p4 : "#7055b5",

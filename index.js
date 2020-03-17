@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/10/2020 9:18:35 AM
+	3/17/2020 9:19:09 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -162,6 +162,7 @@ module.exports = {
     odin : Color('#60AFFE'),
     omgrofl : Color('#cabbff'),
     opal : Color('#f7ede0'),
+    openqasm : Color('#AA70FF'),
     oxygene : Color('#cdd0e3'),
     oz : Color('#fab738'),
     p4 : Color('#7055b5'),
