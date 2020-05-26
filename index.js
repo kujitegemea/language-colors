@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/19/2020 9:22:31 AM
+	5/26/2020 9:22:37 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -56,6 +56,7 @@ module.exports = {
     cuda : Color('#3A4E3A'),
     d : Color('#ba595e'),
     dm : Color('#447265'),
+    dafny : Color('#FFEC25'),
     dart : Color('#00B4AB'),
     dataweave : Color('#003a52'),
     dhall : Color('#dfafff'),
@@ -134,6 +135,7 @@ module.exports = {
     mql4 : Color('#62A8D6'),
     mql5 : Color('#4A76B8'),
     mtml : Color('#b7e1f4'),
+    macaulay2 : Color('#d8ffff'),
     makefile : Color('#427819'),
     mask : Color('#f97732'),
     max : Color('#c4a79c'),

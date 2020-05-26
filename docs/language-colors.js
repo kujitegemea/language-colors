@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/19/2020 9:22:31 AM
+	5/26/2020 9:22:37 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -54,6 +54,7 @@ const LanguageColors = {
     cuda : "#3A4E3A",
     d : "#ba595e",
     dm : "#447265",
+    dafny : "#FFEC25",
     dart : "#00B4AB",
     dataweave : "#003a52",
     dhall : "#dfafff",
@@ -132,6 +133,7 @@ const LanguageColors = {
     mql4 : "#62A8D6",
     mql5 : "#4A76B8",
     mtml : "#b7e1f4",
+    macaulay2 : "#d8ffff",
     makefile : "#427819",
     mask : "#f97732",
     max : "#c4a79c",
