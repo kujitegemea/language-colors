@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	6/2/2020 9:23:44 AM
+	6/9/2020 9:23:43 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -81,6 +81,7 @@ const LanguageColors = {
     fortran : "#4d41b1",
     freemarker : "#0050b2",
     frege : "#00cafe",
+    futhark : "#5f021f",
     g_code : "#D08CF2",
     gaml : "#FFC766",
     gdscript : "#355570",

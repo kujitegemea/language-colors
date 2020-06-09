@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	6/2/2020 9:23:44 AM
+	6/9/2020 9:23:43 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -83,6 +83,7 @@ module.exports = {
     fortran : Color('#4d41b1'),
     freemarker : Color('#0050b2'),
     frege : Color('#00cafe'),
+    futhark : Color('#5f021f'),
     g_code : Color('#D08CF2'),
     gaml : Color('#FFC766'),
     gdscript : Color('#355570'),
