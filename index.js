@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	6/23/2020 9:24:34 AM
+	6/30/2020 9:25:02 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -153,7 +153,7 @@ module.exports = {
     netlogo : Color('#ff6375'),
     newlisp : Color('#87AED7'),
     nextflow : Color('#3ac486'),
-    nim : Color('#37775b'),
+    nim : Color('#ffc200'),
     nit : Color('#009917'),
     nix : Color('#7e7eff'),
     nu : Color('#c9df40'),
