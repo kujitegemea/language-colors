@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	7/21/2020 9:26:50 AM
+	7/28/2020 9:27:38 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -120,6 +120,7 @@ module.exports = {
     julia : Color('#a270ba'),
     jupyter_notebook : Color('#DA5B0B'),
     krl : Color('#28430A'),
+    kaitai_struct : Color('#773b37'),
     kotlin : Color('#F18E33'),
     lfe : Color('#4C3023'),
     llvm : Color('#185619'),
@@ -191,7 +192,9 @@ module.exports = {
     purebasic : Color('#5a6986'),
     purescript : Color('#1D222D'),
     python : Color('#3572A5'),
+    qsharp : Color('#fed659'),
     qml : Color('#44a51c'),
+    qt_script : Color('#00b841'),
     quake : Color('#882233'),
     r : Color('#198CE7'),
     raml : Color('#77d9fb'),
