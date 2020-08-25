@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	8/18/2020 9:29:30 AM
+	8/25/2020 9:30:12 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -239,6 +239,7 @@ const LanguageColors = {
     terra : "#00004c",
     turing : "#cf142b",
     typescript : "#2b7489",
+    uno : "#9933cc",
     unrealscript : "#a54c4d",
     v : "#5d87bd",
     vba : "#867db1",

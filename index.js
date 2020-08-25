@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	8/18/2020 9:29:30 AM
+	8/25/2020 9:30:12 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -241,6 +241,7 @@ module.exports = {
     terra : Color('#00004c'),
     turing : Color('#cf142b'),
     typescript : Color('#2b7489'),
+    uno : Color('#9933cc'),
     unrealscript : Color('#a54c4d'),
     v : Color('#5d87bd'),
     vba : Color('#867db1'),
