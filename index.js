@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	8/25/2020 9:30:12 AM
+	9/1/2020 9:30:40 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -13,6 +13,7 @@ module.exports = {
     onec_enterprise : Color('#814CCC'),
     abap : Color('#E8274B'),
     ags_script : Color('#B9D9FF'),
+    al_code : Color('#3AA2B5'),
     ampl : Color('#E6EFBB'),
     antlr : Color('#9DC3FF'),
     api_blueprint : Color('#2ACCA8'),

@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	8/25/2020 9:30:12 AM
+	9/1/2020 9:30:40 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -11,6 +11,7 @@ const LanguageColors = {
     onec_enterprise : "#814CCC",
     abap : "#E8274B",
     ags_script : "#B9D9FF",
+    al_code : "#3AA2B5",
     ampl : "#E6EFBB",
     antlr : "#9DC3FF",
     api_blueprint : "#2ACCA8",
