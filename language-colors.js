@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	9/29/2020 9:33:07 AM
+	10/6/2020 9:33:49 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -11,7 +11,7 @@ const LanguageColors = {
     onec_enterprise : "#814CCC",
     abap : "#E8274B",
     ags_script : "#B9D9FF",
-    al_code : "#3AA2B5",
+    al : "#3AA2B5",
     ampl : "#E6EFBB",
     antlr : "#9DC3FF",
     api_blueprint : "#2ACCA8",
@@ -24,6 +24,7 @@ const LanguageColors = {
     alloy : "#64C800",
     angelscript : "#C7D7DC",
     apex : "#1797c0",
+    apollo_guidance_computer : "#0B3D91",
     applescript : "#101F1F",
     arc : "#aa2afe",
     aspectj : "#a957b0",
@@ -33,6 +34,7 @@ const LanguageColors = {
     autoit : "#1C3552",
     ballerina : "#FF5000",
     batchfile : "#C1F12E",
+    bison : "#6A463F",
     blade : "#f7523f",
     blitzmax : "#cd6400",
     boo : "#d4bec1",
@@ -52,6 +54,7 @@ const LanguageColors = {
     clojure : "#db5855",
     coffeescript : "#244776",
     coldfusion : "#ed2cd6",
+    coldfusion_cfc : "#ed2cd6",
     common_lisp : "#3fb68b",
     common_workflow_language : "#B5314C",
     component_pascal : "#B0CE4E",
@@ -68,6 +71,7 @@ const LanguageColors = {
     dylan : "#6c616e",
     e : "#ccce35",
     ecl : "#8a1267",
+    ejs : "#a91e50",
     eq : "#a78649",
     eiffel : "#4d6977",
     elixir : "#6e4a7e",
@@ -99,6 +103,7 @@ const LanguageColors = {
     golo : "#88562A",
     gosu : "#82937f",
     grammatical_framework : "#ff0000",
+    graphql : "#e10098",
     groovy : "#e69f56",
     html : "#e34c26",
     hack : "#878787",
@@ -117,6 +122,7 @@ const LanguageColors = {
     ioke : "#078193",
     isabelle : "#FEFE00",
     j : "#9EEDFF",
+    jflex : "#DBCA00",
     jsoniq : "#40d47e",
     java : "#b07219",
     javascript : "#f1e05a",
@@ -167,6 +173,7 @@ const LanguageColors = {
     nit : "#009917",
     nix : "#7e7eff",
     nu : "#c9df40",
+    numpy : "#9C8AF9",
     ocaml : "#3be133",
     objectscript : "#424893",
     objective_c : "#438eff",
@@ -259,6 +266,7 @@ const LanguageColors = {
     turing : "#cf142b",
     twig : "#c1d026",
     typescript : "#2b7489",
+    unified_parallel_c : "#4e3617",
     uno : "#9933cc",
     unrealscript : "#a54c4d",
     v : "#4f87c4",

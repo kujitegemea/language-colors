@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	9/29/2020 9:33:07 AM
+	10/6/2020 9:33:49 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -13,7 +13,7 @@ module.exports = {
     onec_enterprise : Color('#814CCC'),
     abap : Color('#E8274B'),
     ags_script : Color('#B9D9FF'),
-    al_code : Color('#3AA2B5'),
+    al : Color('#3AA2B5'),
     ampl : Color('#E6EFBB'),
     antlr : Color('#9DC3FF'),
     api_blueprint : Color('#2ACCA8'),
@@ -26,6 +26,7 @@ module.exports = {
     alloy : Color('#64C800'),
     angelscript : Color('#C7D7DC'),
     apex : Color('#1797c0'),
+    apollo_guidance_computer : Color('#0B3D91'),
     applescript : Color('#101F1F'),
     arc : Color('#aa2afe'),
     aspectj : Color('#a957b0'),
@@ -35,6 +36,7 @@ module.exports = {
     autoit : Color('#1C3552'),
     ballerina : Color('#FF5000'),
     batchfile : Color('#C1F12E'),
+    bison : Color('#6A463F'),
     blade : Color('#f7523f'),
     blitzmax : Color('#cd6400'),
     boo : Color('#d4bec1'),
@@ -54,6 +56,7 @@ module.exports = {
     clojure : Color('#db5855'),
     coffeescript : Color('#244776'),
     coldfusion : Color('#ed2cd6'),
+    coldfusion_cfc : Color('#ed2cd6'),
     common_lisp : Color('#3fb68b'),
     common_workflow_language : Color('#B5314C'),
     component_pascal : Color('#B0CE4E'),
@@ -70,6 +73,7 @@ module.exports = {
     dylan : Color('#6c616e'),
     e : Color('#ccce35'),
     ecl : Color('#8a1267'),
+    ejs : Color('#a91e50'),
     eq : Color('#a78649'),
     eiffel : Color('#4d6977'),
     elixir : Color('#6e4a7e'),
@@ -101,6 +105,7 @@ module.exports = {
     golo : Color('#88562A'),
     gosu : Color('#82937f'),
     grammatical_framework : Color('#ff0000'),
+    graphql : Color('#e10098'),
     groovy : Color('#e69f56'),
     html : Color('#e34c26'),
     hack : Color('#878787'),
@@ -119,6 +124,7 @@ module.exports = {
     ioke : Color('#078193'),
     isabelle : Color('#FEFE00'),
     j : Color('#9EEDFF'),
+    jflex : Color('#DBCA00'),
     jsoniq : Color('#40d47e'),
     java : Color('#b07219'),
     javascript : Color('#f1e05a'),
@@ -169,6 +175,7 @@ module.exports = {
     nit : Color('#009917'),
     nix : Color('#7e7eff'),
     nu : Color('#c9df40'),
+    numpy : Color('#9C8AF9'),
     ocaml : Color('#3be133'),
     objectscript : Color('#424893'),
     objective_c : Color('#438eff'),
@@ -261,6 +268,7 @@ module.exports = {
     turing : Color('#cf142b'),
     twig : Color('#c1d026'),
     typescript : Color('#2b7489'),
+    unified_parallel_c : Color('#4e3617'),
     uno : Color('#9933cc'),
     unrealscript : Color('#a54c4d'),
     v : Color('#4f87c4'),
