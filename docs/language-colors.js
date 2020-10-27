@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	10/20/2020 9:34:55 AM
+	10/27/2020 10:06:45 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -163,6 +163,7 @@ const LanguageColors = {
     mirah : "#c7a938",
     modula_3 : "#223388",
     ncl : "#28431f",
+    nwscript : "#111522",
     nearley : "#990000",
     nemerle : "#3d3c6e",
     netlinx : "#0aa0ff",
