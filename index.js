@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	11/3/2020 9:55:31 AM
+	11/10/2020 10:02:25 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -225,6 +225,7 @@ module.exports = {
     ragel : Color('#9d5200'),
     raku : Color('#0000fb'),
     rascal : Color('#fffaa0'),
+    rescript : Color('#ed5051'),
     reason : Color('#ff5847'),
     rebol : Color('#358a5b'),
     red : Color('#f50000'),
