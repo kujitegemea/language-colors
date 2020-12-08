@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	12/1/2020 10:20:25 AM
+	12/8/2020 9:58:37 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -41,6 +41,7 @@ module.exports = {
     blitzmax : Color('#cd6400'),
     boo : Color('#d4bec1'),
     brainfuck : Color('#2F2530'),
+    browserslist : Color('#ffd539'),
     c : Color('#555555'),
     csharp : Color('#178600'),
     cpp : Color('#f34b7d'),
