@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	1/19/2021 9:43:33 AM
+	1/26/2021 10:33:29 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -276,6 +276,8 @@
 .bg-color-less { background-color: #1d365d !important; }
 .color-lex { color: #DBCA00 !important; }
 .bg-color-lex { background-color: #DBCA00 !important; }
+.color-liquid { color: #67b8de !important; }
+.bg-color-liquid { background-color: #67b8de !important; }
 .color-livescript { color: #499886 !important; }
 .bg-color-livescript { background-color: #499886 !important; }
 .color-lookml { color: #652B81 !important; }

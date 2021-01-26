@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	1/19/2021 9:43:33 AM
+	1/26/2021 10:33:29 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -145,6 +145,7 @@ module.exports = {
     latte : Color('#f2a542'),
     less : Color('#1d365d'),
     lex : Color('#DBCA00'),
+    liquid : Color('#67b8de'),
     livescript : Color('#499886'),
     lookml : Color('#652B81'),
     lua : Color('#000080'),
