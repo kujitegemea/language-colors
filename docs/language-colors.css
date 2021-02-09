@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	2/2/2021 10:04:57 AM
+	2/9/2021 9:52:15 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -66,6 +66,8 @@
 .bg-color-blitzmax { background-color: #cd6400 !important; }
 .color-boo { color: #d4bec1 !important; }
 .bg-color-boo { background-color: #d4bec1 !important; }
+.color-boogie { color: #c80fa0 !important; }
+.bg-color-boogie { background-color: #c80fa0 !important; }
 .color-brainfuck { color: #2F2530 !important; }
 .bg-color-brainfuck { background-color: #2F2530 !important; }
 .color-browserslist { color: #ffd539 !important; }
@@ -96,6 +98,8 @@
 .bg-color-click { background-color: #E4E6F3 !important; }
 .color-clojure { color: #db5855 !important; }
 .bg-color-clojure { background-color: #db5855 !important; }
+.color-closure-templates { color: #0d948f !important; }
+.bg-color-closure_templates { background-color: #0d948f !important; }
 .color-coffeescript { color: #244776 !important; }
 .bg-color-coffeescript { background-color: #244776 !important; }
 .color-coldfusion { color: #ed2cd6 !important; }
@@ -318,6 +322,8 @@
 .bg-color-mirah { background-color: #c7a938 !important; }
 .color-modula-3 { color: #223388 !important; }
 .bg-color-modula_3 { background-color: #223388 !important; }
+.color-mustache { color: #724b3b !important; }
+.bg-color-mustache { background-color: #724b3b !important; }
 .color-ncl { color: #28431f !important; }
 .bg-color-ncl { background-color: #28431f !important; }
 .color-nwscript { color: #111522 !important; }
@@ -364,6 +370,8 @@
 .bg-color-opal { background-color: #f7ede0 !important; }
 .color-openqasm { color: #AA70FF !important; }
 .bg-color-openqasm { background-color: #AA70FF !important; }
+.color-org { color: #77aa99 !important; }
+.bg-color-org { background-color: #77aa99 !important; }
 .color-oxygene { color: #cdd0e3 !important; }
 .bg-color-oxygene { background-color: #cdd0e3 !important; }
 .color-oz { color: #fab738 !important; }
@@ -478,6 +486,8 @@
 .bg-color-sass { background-color: #a53b70 !important; }
 .color-scala { color: #c22d40 !important; }
 .bg-color-scala { background-color: #c22d40 !important; }
+.color-scaml { color: #bd181a !important; }
+.bg-color-scaml { background-color: #bd181a !important; }
 .color-scheme { color: #1e4aec !important; }
 .bg-color-scheme { background-color: #1e4aec !important; }
 .color-self { color: #0579aa !important; }

@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	2/2/2021 10:04:57 AM
+	2/9/2021 9:52:15 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -40,6 +40,7 @@ module.exports = {
     blade : Color('#f7523f'),
     blitzmax : Color('#cd6400'),
     boo : Color('#d4bec1'),
+    boogie : Color('#c80fa0'),
     brainfuck : Color('#2F2530'),
     browserslist : Color('#ffd539'),
     c : Color('#555555'),
@@ -55,6 +56,7 @@ module.exports = {
     clean : Color('#3F85AF'),
     click : Color('#E4E6F3'),
     clojure : Color('#db5855'),
+    closure_templates : Color('#0d948f'),
     coffeescript : Color('#244776'),
     coldfusion : Color('#ed2cd6'),
     coldfusion_cfc : Color('#ed2cd6'),
@@ -166,6 +168,7 @@ module.exports = {
     metal : Color('#8f14e9'),
     mirah : Color('#c7a938'),
     modula_3 : Color('#223388'),
+    mustache : Color('#724b3b'),
     ncl : Color('#28431f'),
     nwscript : Color('#111522'),
     nearley : Color('#990000'),
@@ -189,6 +192,7 @@ module.exports = {
     omgrofl : Color('#cabbff'),
     opal : Color('#f7ede0'),
     openqasm : Color('#AA70FF'),
+    org : Color('#77aa99'),
     oxygene : Color('#cdd0e3'),
     oz : Color('#fab738'),
     p4 : Color('#7055b5'),
@@ -246,6 +250,7 @@ module.exports = {
     saltstack : Color('#646464'),
     sass : Color('#a53b70'),
     scala : Color('#c22d40'),
+    scaml : Color('#bd181a'),
     scheme : Color('#1e4aec'),
     self : Color('#0579aa'),
     shell : Color('#89e051'),
