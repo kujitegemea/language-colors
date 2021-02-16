@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	2/9/2021 9:52:15 AM
+	2/16/2021 9:43:45 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -12,6 +12,7 @@ const Color = require("color")
 module.exports = {
     onec_enterprise : Color('#814CCC'),
     abap : Color('#E8274B'),
+    abap_cds : Color('#555e25'),
     ags_script : Color('#B9D9FF'),
     al : Color('#3AA2B5'),
     ampl : Color('#E6EFBB'),
@@ -36,6 +37,7 @@ module.exports = {
     autoit : Color('#1C3552'),
     ballerina : Color('#FF5000'),
     batchfile : Color('#C1F12E'),
+    beef : Color('#a52f4e'),
     bison : Color('#6A463F'),
     blade : Color('#f7523f'),
     blitzmax : Color('#cd6400'),
@@ -123,6 +125,7 @@ module.exports = {
     idl : Color('#a3522f'),
     igor_pro : Color('#0000cc'),
     idris : Color('#b30000'),
+    imagej_macro : Color('#99AAFF'),
     io : Color('#a9188d'),
     ioke : Color('#078193'),
     isabelle : Color('#FEFE00'),
@@ -183,6 +186,7 @@ module.exports = {
     nix : Color('#7e7eff'),
     nu : Color('#c9df40'),
     numpy : Color('#9C8AF9'),
+    nunjucks : Color('#3d8137'),
     ocaml : Color('#3be133'),
     objectscript : Color('#424893'),
     objective_c : Color('#438eff'),
@@ -234,6 +238,7 @@ module.exports = {
     rescript : Color('#ed5051'),
     reason : Color('#ff5847'),
     rebol : Color('#358a5b'),
+    record_jar : Color('#0673ba'),
     red : Color('#f50000'),
     renpy : Color('#ff7f7f'),
     ring : Color('#2D54CB'),

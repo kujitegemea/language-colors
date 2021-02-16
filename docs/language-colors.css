@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	2/9/2021 9:52:15 AM
+	2/16/2021 9:43:45 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -10,6 +10,8 @@
 .bg-color-onec_enterprise { background-color: #814CCC !important; }
 .color-abap { color: #E8274B !important; }
 .bg-color-abap { background-color: #E8274B !important; }
+.color-abap-cds { color: #555e25 !important; }
+.bg-color-abap_cds { background-color: #555e25 !important; }
 .color-ags-script { color: #B9D9FF !important; }
 .bg-color-ags_script { background-color: #B9D9FF !important; }
 .color-al { color: #3AA2B5 !important; }
@@ -58,6 +60,8 @@
 .bg-color-ballerina { background-color: #FF5000 !important; }
 .color-batchfile { color: #C1F12E !important; }
 .bg-color-batchfile { background-color: #C1F12E !important; }
+.color-beef { color: #a52f4e !important; }
+.bg-color-beef { background-color: #a52f4e !important; }
 .color-bison { color: #6A463F !important; }
 .bg-color-bison { background-color: #6A463F !important; }
 .color-blade { color: #f7523f !important; }
@@ -232,6 +236,8 @@
 .bg-color-igor_pro { background-color: #0000cc !important; }
 .color-idris { color: #b30000 !important; }
 .bg-color-idris { background-color: #b30000 !important; }
+.color-imagej-macro { color: #99AAFF !important; }
+.bg-color-imagej_macro { background-color: #99AAFF !important; }
 .color-io { color: #a9188d !important; }
 .bg-color-io { background-color: #a9188d !important; }
 .color-ioke { color: #078193 !important; }
@@ -352,6 +358,8 @@
 .bg-color-nu { background-color: #c9df40 !important; }
 .color-numpy { color: #9C8AF9 !important; }
 .bg-color-numpy { background-color: #9C8AF9 !important; }
+.color-nunjucks { color: #3d8137 !important; }
+.bg-color-nunjucks { background-color: #3d8137 !important; }
 .color-ocaml { color: #3be133 !important; }
 .bg-color-ocaml { background-color: #3be133 !important; }
 .color-objectscript { color: #424893 !important; }
@@ -454,6 +462,8 @@
 .bg-color-reason { background-color: #ff5847 !important; }
 .color-rebol { color: #358a5b !important; }
 .bg-color-rebol { background-color: #358a5b !important; }
+.color-record-jar { color: #0673ba !important; }
+.bg-color-record_jar { background-color: #0673ba !important; }
 .color-red { color: #f50000 !important; }
 .bg-color-red { background-color: #f50000 !important; }
 .color-renpy { color: #ff7f7f !important; }
