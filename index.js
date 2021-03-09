@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/2/2021 9:44:09 AM
+	3/9/2021 9:50:38 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -145,7 +145,7 @@ module.exports = {
     llvm : Color('#185619'),
     lolcode : Color('#cc9900'),
     lsl : Color('#3d9970'),
-    lark : Color('#0b130f'),
+    lark : Color('#2980B9'),
     lasso : Color('#999999'),
     latte : Color('#f2a542'),
     less : Color('#1d365d'),
@@ -313,6 +313,7 @@ module.exports = {
     zephir : Color('#118f9e'),
     zig : Color('#ec915c'),
     ec : Color('#913960'),
+    jq : Color('#c7254e'),
     mirc_script : Color('#3d57c3'),
     mcfunction : Color('#E22837'),
     nesc : Color('#94B0C7'),

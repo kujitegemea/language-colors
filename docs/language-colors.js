@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/2/2021 9:44:09 AM
+	3/9/2021 9:50:38 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -143,7 +143,7 @@ const LanguageColors = {
     llvm : "#185619",
     lolcode : "#cc9900",
     lsl : "#3d9970",
-    lark : "#0b130f",
+    lark : "#2980B9",
     lasso : "#999999",
     latte : "#f2a542",
     less : "#1d365d",
@@ -311,6 +311,7 @@ const LanguageColors = {
     zephir : "#118f9e",
     zig : "#ec915c",
     ec : "#913960",
+    jq : "#c7254e",
     mirc_script : "#3d57c3",
     mcfunction : "#E22837",
     nesc : "#94B0C7",
