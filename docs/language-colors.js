@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/9/2021 9:50:38 AM
+	3/16/2021 9:45:31 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -100,6 +100,7 @@ const LanguageColors = {
     gaml : "#FFC766",
     gdscript : "#355570",
     game_maker_language : "#71b417",
+    gemfiledotlock : "#701516",
     genie : "#fb855d",
     gherkin : "#5B2063",
     glyph : "#c1ac7f",

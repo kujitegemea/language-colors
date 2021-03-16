@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/9/2021 9:50:38 AM
+	3/16/2021 9:45:31 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -102,6 +102,7 @@ module.exports = {
     gaml : Color('#FFC766'),
     gdscript : Color('#355570'),
     game_maker_language : Color('#71b417'),
+    gemfiledotlock : Color('#701516'),
     genie : Color('#fb855d'),
     gherkin : Color('#5B2063'),
     glyph : Color('#c1ac7f'),
