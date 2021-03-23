@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/16/2021 9:45:31 AM
+	3/23/2021 9:46:43 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -133,6 +133,7 @@ const LanguageColors = {
     jsoniq : "#40d47e",
     java : "#b07219",
     javascript : "#f1e05a",
+    jinja : "#a52a22",
     jolie : "#843179",
     jsonnet : "#0064bd",
     julia : "#a270ba",
@@ -259,6 +260,7 @@ const LanguageColors = {
     self : "#0579aa",
     shell : "#89e051",
     shen : "#120F14",
+    singularity : "#64E6AD",
     slash : "#007eff",
     slice : "#003fa2",
     slim : "#2b2b2b",
@@ -270,6 +272,7 @@ const LanguageColors = {
     stan : "#b2011d",
     standard_ml : "#dc566d",
     starlark : "#76d275",
+    stringtemplate : "#3fb34f",
     stylus : "#ff6347",
     supercollider : "#46390b",
     svelte : "#ff3e00",
@@ -302,6 +305,7 @@ const LanguageColors = {
     xc : "#99DA07",
     xquery : "#5232e7",
     xslt : "#EB8CEB",
+    xonsh : "#285EEF",
     yaml : "#cb171e",
     yara : "#220000",
     yasnippet : "#32AB90",

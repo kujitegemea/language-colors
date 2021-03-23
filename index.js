@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/16/2021 9:45:31 AM
+	3/23/2021 9:46:43 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -135,6 +135,7 @@ module.exports = {
     jsoniq : Color('#40d47e'),
     java : Color('#b07219'),
     javascript : Color('#f1e05a'),
+    jinja : Color('#a52a22'),
     jolie : Color('#843179'),
     jsonnet : Color('#0064bd'),
     julia : Color('#a270ba'),
@@ -261,6 +262,7 @@ module.exports = {
     self : Color('#0579aa'),
     shell : Color('#89e051'),
     shen : Color('#120F14'),
+    singularity : Color('#64E6AD'),
     slash : Color('#007eff'),
     slice : Color('#003fa2'),
     slim : Color('#2b2b2b'),
@@ -272,6 +274,7 @@ module.exports = {
     stan : Color('#b2011d'),
     standard_ml : Color('#dc566d'),
     starlark : Color('#76d275'),
+    stringtemplate : Color('#3fb34f'),
     stylus : Color('#ff6347'),
     supercollider : Color('#46390b'),
     svelte : Color('#ff3e00'),
@@ -304,6 +307,7 @@ module.exports = {
     xc : Color('#99DA07'),
     xquery : Color('#5232e7'),
     xslt : Color('#EB8CEB'),
+    xonsh : Color('#285EEF'),
     yaml : Color('#cb171e'),
     yara : Color('#220000'),
     yasnippet : Color('#32AB90'),
