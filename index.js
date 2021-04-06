@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/30/2021 9:47:12 AM
+	4/6/2021 9:47:25 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -35,6 +35,7 @@ module.exports = {
     asymptote : Color('#ff0000'),
     autohotkey : Color('#6594b9'),
     autoit : Color('#1C3552'),
+    basic : Color('#ff0000'),
     ballerina : Color('#FF5000'),
     batchfile : Color('#C1F12E'),
     beef : Color('#a52f4e'),

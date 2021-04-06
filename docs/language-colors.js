@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	3/30/2021 9:47:12 AM
+	4/6/2021 9:47:25 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -33,6 +33,7 @@ const LanguageColors = {
     asymptote : "#ff0000",
     autohotkey : "#6594b9",
     autoit : "#1C3552",
+    basic : "#ff0000",
     ballerina : "#FF5000",
     batchfile : "#C1F12E",
     beef : "#a52f4e",
