@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	4/6/2021 9:47:25 AM
+	4/13/2021 9:47:45 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -39,6 +39,7 @@ module.exports = {
     ballerina : Color('#FF5000'),
     batchfile : Color('#C1F12E'),
     beef : Color('#a52f4e'),
+    bicep : Color('#519aba'),
     bison : Color('#6A463F'),
     blade : Color('#f7523f'),
     blitzmax : Color('#cd6400'),
@@ -96,6 +97,7 @@ module.exports = {
     faust : Color('#c37240'),
     forth : Color('#341708'),
     fortran : Color('#4d41b1'),
+    freebasic : Color('#867db1'),
     freemarker : Color('#0050b2'),
     frege : Color('#00cafe'),
     futhark : Color('#5f021f'),
