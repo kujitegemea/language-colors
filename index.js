@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	4/13/2021 9:47:45 AM
+	4/20/2021 9:47:35 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -14,6 +14,7 @@ module.exports = {
     abap : Color('#E8274B'),
     abap_cds : Color('#555e25'),
     ags_script : Color('#B9D9FF'),
+    aidl : Color('#34EB6B'),
     al : Color('#3AA2B5'),
     ampl : Color('#E6EFBB'),
     antlr : Color('#9DC3FF'),
@@ -52,6 +53,7 @@ module.exports = {
     cpp : Color('#f34b7d'),
     cson : Color('#244776'),
     css : Color('#563d7c'),
+    cue : Color('#5886E1'),
     ceylon : Color('#dfa535'),
     chapel : Color('#8dc63f'),
     cirru : Color('#ccccff'),
