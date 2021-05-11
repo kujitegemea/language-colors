@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/4/2021 9:49:12 AM
+	5/11/2021 9:49:41 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -305,7 +305,7 @@ module.exports = {
     vim_script : Color('#199f4b'),
     visual_basic_dotnet : Color('#945db7'),
     volt : Color('#1F1F1F'),
-    vue : Color('#2c3e50'),
+    vue : Color('#41b883'),
     webassembly : Color('#04133b'),
     wollok : Color('#a23738'),
     x10 : Color('#4B6BEF'),

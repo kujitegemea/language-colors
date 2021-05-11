@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/4/2021 9:49:12 AM
+	5/11/2021 9:49:41 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -303,7 +303,7 @@ const LanguageColors = {
     vim_script : "#199f4b",
     visual_basic_dotnet : "#945db7",
     volt : "#1F1F1F",
-    vue : "#2c3e50",
+    vue : "#41b883",
     webassembly : "#04133b",
     wollok : "#a23738",
     x10 : "#4B6BEF",
