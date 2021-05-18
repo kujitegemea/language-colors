@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/11/2021 9:49:41 AM
+	5/18/2021 9:49:50 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -289,6 +289,7 @@ module.exports = {
     tcl : Color('#e4cc98'),
     tex : Color('#3D6117'),
     terra : Color('#00004c'),
+    textmate_properties : Color('#df66e4'),
     turing : Color('#cf142b'),
     twig : Color('#c1d026'),
     typescript : Color('#2b7489'),

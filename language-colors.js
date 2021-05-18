@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/11/2021 9:49:41 AM
+	5/18/2021 9:49:50 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -287,6 +287,7 @@ const LanguageColors = {
     tcl : "#e4cc98",
     tex : "#3D6117",
     terra : "#00004c",
+    textmate_properties : "#df66e4",
     turing : "#cf142b",
     twig : "#c1d026",
     typescript : "#2b7489",
