@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/18/2021 9:49:50 AM
+	5/25/2021 9:50:24 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -300,6 +300,8 @@
 .bg-color-less { background-color: #1d365d !important; }
 .color-lex { color: #DBCA00 !important; }
 .bg-color-lex { background-color: #DBCA00 !important; }
+.color-lilypond { color: #9ccc7c !important; }
+.bg-color-lilypond { background-color: #9ccc7c !important; }
 .color-liquid { color: #67b8de !important; }
 .bg-color-liquid { background-color: #67b8de !important; }
 .color-livescript { color: #499886 !important; }
@@ -590,6 +592,8 @@
 .bg-color-vhdl { background-color: #adb2cb !important; }
 .color-vala { color: #fbe5cd !important; }
 .bg-color-vala { background-color: #fbe5cd !important; }
+.color-valve-data-format { color: #f26025 !important; }
+.bg-color-valve_data_format { background-color: #f26025 !important; }
 .color-verilog { color: #b2b7f8 !important; }
 .bg-color-verilog { background-color: #b2b7f8 !important; }
 .color-vim-script { color: #199f4b !important; }

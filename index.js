@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/18/2021 9:49:50 AM
+	5/25/2021 9:50:24 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -157,6 +157,7 @@ module.exports = {
     latte : Color('#f2a542'),
     less : Color('#1d365d'),
     lex : Color('#DBCA00'),
+    lilypond : Color('#9ccc7c'),
     liquid : Color('#67b8de'),
     livescript : Color('#499886'),
     lookml : Color('#652B81'),
@@ -302,6 +303,7 @@ module.exports = {
     vcl : Color('#148AA8'),
     vhdl : Color('#adb2cb'),
     vala : Color('#fbe5cd'),
+    valve_data_format : Color('#f26025'),
     verilog : Color('#b2b7f8'),
     vim_script : Color('#199f4b'),
     visual_basic_dotnet : Color('#945db7'),
