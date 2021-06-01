@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/25/2021 9:50:24 AM
+	6/1/2021 9:50:34 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -34,6 +34,7 @@ const LanguageColors = {
     asymptote : "#ff0000",
     autohotkey : "#6594b9",
     autoit : "#1C3552",
+    awk : "#c30e9b",
     basic : "#ff0000",
     ballerina : "#FF5000",
     batchfile : "#C1F12E",
@@ -95,6 +96,7 @@ const LanguageColors = {
     fancy : "#7b9db4",
     fantom : "#14253c",
     faust : "#c37240",
+    fluent : "#ffcc33",
     forth : "#341708",
     fortran : "#4d41b1",
     freebasic : "#867db1",
@@ -145,7 +147,7 @@ const LanguageColors = {
     jupyter_notebook : "#DA5B0B",
     krl : "#28430A",
     kaitai_struct : "#773b37",
-    kotlin : "#F18E33",
+    kotlin : "#A97BFF",
     lfe : "#4C3023",
     llvm : "#185619",
     lolcode : "#cc9900",
@@ -206,6 +208,7 @@ const LanguageColors = {
     oxygene : "#cdd0e3",
     oz : "#fab738",
     p4 : "#7055b5",
+    pegdotjs : "#234d6b",
     php : "#4F5D95",
     plsql : "#dad8d8",
     pan : "#cc0000",
@@ -246,6 +249,7 @@ const LanguageColors = {
     rebol : "#358a5b",
     record_jar : "#0673ba",
     red : "#f50000",
+    regular_expression : "#009a00",
     renpy : "#ff7f7f",
     ring : "#2D54CB",
     riot : "#A71E49",

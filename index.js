@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/25/2021 9:50:24 AM
+	6/1/2021 9:50:34 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -36,6 +36,7 @@ module.exports = {
     asymptote : Color('#ff0000'),
     autohotkey : Color('#6594b9'),
     autoit : Color('#1C3552'),
+    awk : Color('#c30e9b'),
     basic : Color('#ff0000'),
     ballerina : Color('#FF5000'),
     batchfile : Color('#C1F12E'),
@@ -97,6 +98,7 @@ module.exports = {
     fancy : Color('#7b9db4'),
     fantom : Color('#14253c'),
     faust : Color('#c37240'),
+    fluent : Color('#ffcc33'),
     forth : Color('#341708'),
     fortran : Color('#4d41b1'),
     freebasic : Color('#867db1'),
@@ -147,7 +149,7 @@ module.exports = {
     jupyter_notebook : Color('#DA5B0B'),
     krl : Color('#28430A'),
     kaitai_struct : Color('#773b37'),
-    kotlin : Color('#F18E33'),
+    kotlin : Color('#A97BFF'),
     lfe : Color('#4C3023'),
     llvm : Color('#185619'),
     lolcode : Color('#cc9900'),
@@ -208,6 +210,7 @@ module.exports = {
     oxygene : Color('#cdd0e3'),
     oz : Color('#fab738'),
     p4 : Color('#7055b5'),
+    pegdotjs : Color('#234d6b'),
     php : Color('#4F5D95'),
     plsql : Color('#dad8d8'),
     pan : Color('#cc0000'),
@@ -248,6 +251,7 @@ module.exports = {
     rebol : Color('#358a5b'),
     record_jar : Color('#0673ba'),
     red : Color('#f50000'),
+    regular_expression : Color('#009a00'),
     renpy : Color('#ff7f7f'),
     ring : Color('#2D54CB'),
     riot : Color('#A71E49'),

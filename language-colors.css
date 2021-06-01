@@ -2,7 +2,7 @@
 	Adewale Azeez <azeezadewale98@gmail.com>
 	MIT License
 	Copyright (c) 2019 Quick Utils
-	5/25/2021 9:50:24 AM
+	6/1/2021 9:50:34 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -58,6 +58,8 @@
 .bg-color-autohotkey { background-color: #6594b9 !important; }
 .color-autoit { color: #1C3552 !important; }
 .bg-color-autoit { background-color: #1C3552 !important; }
+.color-awk { color: #c30e9b !important; }
+.bg-color-awk { background-color: #c30e9b !important; }
 .color-basic { color: #ff0000 !important; }
 .bg-color-basic { background-color: #ff0000 !important; }
 .color-ballerina { color: #FF5000 !important; }
@@ -180,6 +182,8 @@
 .bg-color-fantom { background-color: #14253c !important; }
 .color-faust { color: #c37240 !important; }
 .bg-color-faust { background-color: #c37240 !important; }
+.color-fluent { color: #ffcc33 !important; }
+.bg-color-fluent { background-color: #ffcc33 !important; }
 .color-forth { color: #341708 !important; }
 .bg-color-forth { background-color: #341708 !important; }
 .color-fortran { color: #4d41b1 !important; }
@@ -280,8 +284,8 @@
 .bg-color-krl { background-color: #28430A !important; }
 .color-kaitai-struct { color: #773b37 !important; }
 .bg-color-kaitai_struct { background-color: #773b37 !important; }
-.color-kotlin { color: #F18E33 !important; }
-.bg-color-kotlin { background-color: #F18E33 !important; }
+.color-kotlin { color: #A97BFF !important; }
+.bg-color-kotlin { background-color: #A97BFF !important; }
 .color-lfe { color: #4C3023 !important; }
 .bg-color-lfe { background-color: #4C3023 !important; }
 .color-llvm { color: #185619 !important; }
@@ -402,6 +406,8 @@
 .bg-color-oz { background-color: #fab738 !important; }
 .color-p4 { color: #7055b5 !important; }
 .bg-color-p4 { background-color: #7055b5 !important; }
+.color-pegdotjs { color: #234d6b !important; }
+.bg-color-pegdotjs { background-color: #234d6b !important; }
 .color-php { color: #4F5D95 !important; }
 .bg-color-php { background-color: #4F5D95 !important; }
 .color-plsql { color: #dad8d8 !important; }
@@ -482,6 +488,8 @@
 .bg-color-record_jar { background-color: #0673ba !important; }
 .color-red { color: #f50000 !important; }
 .bg-color-red { background-color: #f50000 !important; }
+.color-regular-expression { color: #009a00 !important; }
+.bg-color-regular_expression { background-color: #009a00 !important; }
 .color-renpy { color: #ff7f7f !important; }
 .bg-color-renpy { background-color: #ff7f7f !important; }
 .color-ring { color: #2D54CB !important; }
