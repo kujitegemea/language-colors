@@ -45,3 +45,14 @@ jobs:
             ${{ steps.Changelog.outputs.changelog }}
           draft: false
           prerelease: false
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: Release ${{ github.ref }}
+          files: |
+            "language-colors.css"
+            "language-colors.js"
+            "language-colors.ps1"
