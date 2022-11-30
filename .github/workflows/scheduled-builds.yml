@@ -3,8 +3,8 @@ name: Breath
 on:
   push:
   schedule:
-    # Runs "at every 2nd minute" (see https://crontab.guru)
-    - cron: "*/10 * * * *"
+    # Runs "at every start of month" (see https://crontab.guru)
+    - cron: "0 0 1 * *"
 jobs:
   build:
     name: Breath
