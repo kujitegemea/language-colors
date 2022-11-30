@@ -53,6 +53,6 @@ jobs:
           prerelease: false
           title: Release ${{ github.ref }}
           files: |
-            "language-colors.css"
-            "language-colors.js"
-            "language-colors.ps1"
+            language-colors.css
+            language-colors.js
+            language-colors.ps1
