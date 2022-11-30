@@ -1,11 +1,11 @@
 
-# <p style="text-align:center;" align="center"><img src="https://quickutils.github.io/language-colors/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
+# <p style="text-align:center;" align="center"><img src="https://kujitegemea.github.io/language-colors/language-colors.png" alt="language-colors" style="width:180px;height:160px;" width="180" height="160" /><br />language-colors.css</p>
 
-<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/quickutils/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/quickutils/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/quickutils/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma)</span>
+<span style="display:block;text-align:center">![Travis (.org)](https://img.shields.io/travis/kujitegemea/language-colors) [![npm](https://img.shields.io/npm/v/language-colors)](https://www.npmjs.com/package/language-colors)  ![GitHub repo size](https://img.shields.io/github/repo-size/kujitegemea/language-colors)	![GitHub contributors](https://img.shields.io/github/contributors/kujitegemea/language-colors) [![Twitter Follow](https://img.shields.io/twitter/follow/iamthecarisma?style=social)](https://twitter.com/iamthecarisma)</span>
 
 <p style="text-align: center;" align="center">GitHub programming languages color codes in CSS, NodeJS and Javascript. Base on GitHub linguist (https://github.com/github/linguist)</p>
 
-The colors are auto updated weekly from [Travis CI](https://travis-ci.org). All the colors can be viewed [here](https://quickutils.github.io/language-colors/language-colors.html).
+The colors are auto updated weekly from [Travis CI](https://travis-ci.org). All the colors can be viewed [here](https://kujitegemea.github.io/language-colors/language-colors.html).
 
 ___
 
@@ -27,13 +27,13 @@ ___
 Add the style-sheet from the repository page. 
 
 ```html
-<link rel="stylesheet" href="https://quickutils.github.io/language-colors/language-colors.css"> 
+<link rel="stylesheet" href="https://kujitegemea.github.io/language-colors/language-colors.css"> 
 ```
 
 Load the style-sheet from within another css file 
 
 ```css
-@import url("https://quickutils.github.io/language-colors/language-colors.css");
+@import url("https://kujitegemea.github.io/language-colors/language-colors.css");
 ```
 
 ### NodeJS
@@ -61,7 +61,7 @@ yarn add language-colors
 Add the script from the repository website. 
 
 ```html
-<script src="https://quickutils.github.io/language-colors/language-colors.js"></script>
+<script src="https://kujitegemea.github.io/language-colors/language-colors.js"></script>
 ```
 
 ## Usage
@@ -96,7 +96,7 @@ console.log(LanguageColors.cpp); //C++
 All the colors are exported in lowercase and some invalid characters is changed to conform with JavaScript identifier naming rules. The colors are exported as string values.
 
 ```js
-<script src="https://quickutils.github.io/language-colors/language-colors.js"></script>
+<script src="https://kujitegemea.github.io/language-colors/language-colors.js"></script>
 <script>
 console.log(LanguageColors.c); //ANSI C
 console.log(LanguageColors.cpp); //C++
@@ -105,11 +105,11 @@ console.log(LanguageColors.cpp); //C++
 
 ## Wiki
 
- - [CSS List of Programming Languages colors values. Foreground and Background](https://github.com/quickutils/language-colors/wiki/CSS-List-of-Programming-Languages-colors-values.-Foreground-and-Background)
+ - [CSS List of Programming Languages colors values. Foreground and Background](https://github.com/kujitegemea/language-colors/wiki/CSS-List-of-Programming-Languages-colors-values.-Foreground-and-Background)
 
- - [NodeJS List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/NodeJS-List-of-Programming-Languages-colors-values)
+ - [NodeJS List of Programming Languages colors values](https://github.com/kujitegemea/language-colors/wiki/NodeJS-List-of-Programming-Languages-colors-values)
  
- - [Browser JavaScript List of Programming Languages colors values](https://github.com/quickutils/language-colors/wiki/Browser-JavaScript-List-of-Programming-Languages-colors-values)
+ - [Browser JavaScript List of Programming Languages colors values](https://github.com/kujitegemea/language-colors/wiki/Browser-JavaScript-List-of-Programming-Languages-colors-values)
 
 ## Contributing
 
@@ -117,7 +117,7 @@ There is really nothing to contribute here, the source for the nodejs, pure js a
 
 The release on github, npm registry and github page is automated using [Travis-CI](https://travis-ci.org/) apis. No human input is really needed. The source files are updated weekly and new build are released also every month.
 
-If any issue or bug is detected you can open an issue [here](https://github.com/quickutils/language-colors/issues/new).
+If any issue or bug is detected you can open an issue [here](https://github.com/kujitegemea/language-colors/issues/new).
 
 Whatever changes you made to the auto generated sources will be over written by Travis-CI update push.
 
