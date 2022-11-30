@@ -22,9 +22,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y powershell
           pwsh -noprofile -executionpolicy bypass -file language-colors.ps1
-          copy .\language-colors.css .\docs\
-          copy .\language-colors.js .\docs\
-          dir .\docs\
+          cp .\language-colors.css .\docs\
+          cp .\language-colors.js .\docs\
+          ls -l .\docs\
 
       # should push to main branch
       - name: Changelog
