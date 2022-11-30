@@ -10,6 +10,9 @@ jobs:
     name: Breath
     runs-on: windows-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Generate Source Codes
         run: |
           powershell -noprofile -executionpolicy bypass -file language-colors.ps1
