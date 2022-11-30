@@ -1,6 +1,7 @@
 name: Breath
 
 on:
+  push:
   schedule:
     # Runs "at every 2nd minute" (see https://crontab.guru)
     - cron: '*/5 * * * *'
