@@ -8,14 +8,20 @@ on:
 jobs:
   build:
     name: Breath
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Generate Source Codes
         run: |
-          powershell -noprofile -executionpolicy bypass -file language-colors.ps1
+          sudo apt-get update
+          sudo apt-get install -y wget apt-transport-https software-properties-common
+          wget -q "https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb"
+          sudo dpkg -i packages-microsoft-prod.deb
+          sudo apt-get update
+          sudo apt-get install -y powershell
+          pwsh -noprofile -executionpolicy bypass -file language-colors.ps1
           copy .\language-colors.css .\docs\
           copy .\language-colors.js .\docs\
           dir .\docs\
