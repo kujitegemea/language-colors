@@ -4,7 +4,7 @@ on:
   push:
   schedule:
     # Runs "at every 2nd minute" (see https://crontab.guru)
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
 jobs:
   build:
     name: Breath
@@ -19,3 +19,23 @@ jobs:
           copy .\language-colors.css .\docs\
           copy .\language-colors.js .\docs\
           dir .\docs\
+
+      # should push to main branch
+      - name: Changelog
+        uses: scottbrenner/generate-changelog-action@master
+        id: Changelog
+        env:
+          REPO: ${{ github.repository }}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            ${{ steps.Changelog.outputs.changelog }}
+          draft: false
+          prerelease: false
