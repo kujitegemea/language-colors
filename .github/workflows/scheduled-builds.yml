@@ -1,0 +1,17 @@
+name: Breath
+
+on:
+  schedule:
+    # Runs "at every 10th minute" (see https://crontab.guru)
+    - cron: '*/10 * * * *'
+jobs:
+  build:
+    name: Breath
+    runs-on: windows-latest
+    steps:
+      - name: Generate Source Codes
+        run: 
+        - powershell -noprofile -executionpolicy bypass -file language-colors.ps1
+        - copy .\language-colors.css .\docs\
+        - copy .\language-colors.js .\docs\
+        - dir .\docs\
