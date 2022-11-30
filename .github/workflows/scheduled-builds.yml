@@ -4,10 +4,11 @@ on:
   push:
   schedule:
     # Runs "at every 2nd minute" (see https://crontab.guru)
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *"
 jobs:
   build:
     name: Breath
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,9 +37,9 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
           prerelease: false
-          title: Release ${{ github.ref }}
+          title: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
           files: |
             language-colors.css
             language-colors.js
