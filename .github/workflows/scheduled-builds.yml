@@ -35,7 +35,7 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-latest
     needs: generate-source
-    if: github.event_name != 'push'
+    #if: github.event_name != 'push'
     steps:
       - name: Changelog
         uses: scottbrenner/generate-changelog-action@master
