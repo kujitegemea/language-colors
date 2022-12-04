@@ -27,7 +27,7 @@ script:
   
 after_success:
   - export NAME=$(git log -1 --pretty=format:'%an')
-  - git config --local user.email "azeezadewale98@gmail.com"
+  - git config --local user.email "iamthecarisma@gmail.com"
   - git config --local user.name "Travis CI"
   - git add .
   - git commit -m "Travis build=${TRAVIS_BUILD_NUMBER}. Auto update from Travis CI"
@@ -37,7 +37,7 @@ after_success:
 before_deploy:
   if ! [[ $TRAVIS_TAG ]]; then
     export TRAVIS_TAG="v1.$TRAVIS_BUILD_NUMBER.0" &&
-    git config --local user.email "azeezadewale98@gmail.com" &&
+    git config --local user.email "iamthecarisma@gmail.com" &&
     git config --local user.name "Travis CI" &&
     git tag $TRAVIS_TAG;
   fi
@@ -55,7 +55,7 @@ deploy:
     - "language-colors-1.${TRAVIS_BUILD_NUMBER}.0.tgz"
     - "language-colors.ps1"
   - provider: npm
-    email: "azeezadewale98@gmail.com"
+    email: "iamthecarisma@gmail.com"
     api_key: "${NPM_TOKEN}"
     edge:
       source: 'native-api/dpl'

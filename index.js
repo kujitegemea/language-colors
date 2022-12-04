@@ -1,7 +1,7 @@
 ﻿/** 
-	Adewale Azeez <azeezadewale98@gmail.com>
+	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
-	Copyright (c) 2019 Quick Utils
+	Copyright (c) 2022 kujitegemea
 	6/15/2021 9:51:21 AM
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/

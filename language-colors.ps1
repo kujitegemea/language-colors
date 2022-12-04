@@ -8,7 +8,7 @@ $LinguistGrammerUrl = "https://rawgit.com/github/linguist/master/lib/linguist/la
 $Content = Invoke-WebRequest -Uri $LinguistGrammerUrl -UseBasicParsing
 $Content = $Content.ToString().Replace('`r', '') -split "`n"
 "$Content" | out-file -Encoding utf8 -filepath test/languages.yml
-$CurrentColorClass = "/** `n`tAdewale Azeez <azeezadewale98@gmail.com>`n`tMIT License`n`tCopyright (c) 2019 Quick Utils`n`t$((Get-Date).ToString())`n**/`n/**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/`n"
+$CurrentColorClass = "/** `n`tAdewale Azeez <iamthecarisma@gmail.com>`n`tMIT License`n`tCopyright (c) 2022 kujitegemea`n`t$((Get-Date).ToString())`n**/`n/**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/`n"
 $CurrentJSColor = "`nconst LanguageColors = {"
 $CurrentNodeJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"
 $CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.css
