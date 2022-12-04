@@ -33,6 +33,7 @@ jobs:
   run-tests:
     name: Generate Source And Update Repo
     permissions: write-all
+    needs: generate-source
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -41,6 +42,7 @@ jobs:
       - name: Run NodeJS Test
         run: |
           cd nodejs
+          npm install
           npm test
 
       # should push to main branch
@@ -49,7 +51,7 @@ jobs:
     name: Deploy To Package Registries
     permissions: write-all
     runs-on: ubuntu-latest
-    needs: generate-source
+    needs: [generate-source, run-tests]
     #if: github.event_name != 'push'
     steps:
       - name: Checkout
