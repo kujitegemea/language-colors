@@ -24,8 +24,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y powershell
           pwsh -noprofile -executionpolicy bypass -file language-colors.ps1
-          cp ./vanillajs/language-colors.css ./docs/
-          cp ./nodejs/language-colors.js ./docs/
+          cp ./css/language-colors.css ./docs/
+          cp ./vanillajs/language-colors.js ./docs/
           ls -l ./docs/
 
       # should push to main branch
@@ -71,9 +71,9 @@ jobs:
       #     prerelease: false
       #     title: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
       #     files: |
+      #       "language-colors.ps1"
       #       "css/language-colors.css"
       #       "vanillajs/language-colors.js"
-      #       "language-colors.ps1"
       #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
       - name: Build Node Package
