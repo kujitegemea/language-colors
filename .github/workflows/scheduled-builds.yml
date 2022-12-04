@@ -66,6 +66,14 @@ jobs:
         env:
           REPO: ${{ github.repository }}
 
+      - name: Build Node Package
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y nodejs npm
+          cd nodejs
+          npm pack
+          ls -l
+
       # create github release
       # - uses: "marvinpinto/action-automatic-releases@latest"
       #   with:
@@ -79,21 +87,7 @@ jobs:
       #       "vanillajs/language-colors.js"
       #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
-      - name: Build Node Package
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y nodejs npm
-          npm pack
-          ls -l
-
-      # create npm release
-      # - uses: "marvinpinto/action-automatic-releases@latest"
-      #   with:
-      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     automatic_release_tag: "latest"
-      #     prerelease: false
-      #     title: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
-      #     files: |
-      #       language-colors.css
-      #       language-colors.js
-      #       language-colors.ps1
+      - name: Publish package to NPM 📦
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
