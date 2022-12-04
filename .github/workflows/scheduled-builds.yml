@@ -37,6 +37,9 @@ jobs:
     needs: generate-source
     #if: github.event_name != 'push'
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: Changelog
         uses: scottbrenner/generate-changelog-action@master
         id: Changelog
