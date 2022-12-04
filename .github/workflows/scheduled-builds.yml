@@ -90,10 +90,10 @@ jobs:
           prerelease: false
           title: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
           files: |
-            "language-colors.ps1"
-            "css/language-colors.css"
-            "vanillajs/language-colors.js"
-            "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
+            language-colors.ps1
+            css/language-colors.css
+            vanillajs/language-colors.js
+            nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz
 
       # create npm release
       - uses: actions/setup-node@v1
