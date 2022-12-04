@@ -55,7 +55,7 @@ jobs:
     name: Deploy To Package Registries
     permissions: write-all
     runs-on: ubuntu-latest
-    needs: [generate-source, run-tests]
+    #needs: [generate-source, run-tests]
     #if: github.event_name != 'push'
     steps:
       - name: Checkout
