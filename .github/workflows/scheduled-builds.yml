@@ -4,8 +4,8 @@ on:
   push:
   schedule:
     # Runs "at every start of month" (see https://crontab.guru)
-    - cron: "0 0 1 * *"
-    - cron: "*/5 * * * *" # every 5 minutes
+    #- cron: "0 0 1 * *"
+    - cron: "*/1 * * * *" # every 5 minutes
 
 jobs:
   generate-source:
