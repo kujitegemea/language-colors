@@ -5,6 +5,7 @@ on:
   schedule:
     # Runs "at every start of month" (see https://crontab.guru)
     - cron: "0 0 1 * *"
+
 jobs:
   generate-source:
     name: Generate Source And Update Repo
@@ -31,12 +32,19 @@ jobs:
           cat "./nodejs/package.json"
           ls -l ./
 
+      - name: Commit Generated Code
+        run: |
+          git config --global user.name 'A'
+          git config --global user.email 'iamthecarisma@gmail.com'
+          git commit -am "Breath for v2.${{ github.run_attempt }}.${{ github.run_number }}. Auto update from Github Action"
+          git push
+
       # should push to main branch
 
   run-tests:
     name: Run Regression Tests
     permissions: write-all
-    needs: generate-source
+    #needs: generate-source
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
