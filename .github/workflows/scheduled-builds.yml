@@ -22,16 +22,19 @@ jobs:
           wget -q "https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb"
           sudo dpkg -i packages-microsoft-prod.deb
           sudo apt-get update
-          sudo apt-get install -y powershell
+          sudo apt-get install -y powershell nodejs npm
+          npm install -g json
           pwsh -noprofile -executionpolicy bypass -file language-colors.ps1
+          json -I -f "./nodejs/package.json" -e 'this.version="v2.${{ github.run_attempt }}.${{ github.run_number }}"';
           cp ./css/language-colors.css ./docs/
           cp ./vanillajs/language-colors.js ./docs/
-          ls -l ./docs/
+          cat "./nodejs/package.json"
+          ls -l ./
 
       # should push to main branch
 
   run-tests:
-    name: Generate Source And Update Repo
+    name: Run Regression Tests
     permissions: write-all
     needs: generate-source
     runs-on: ubuntu-latest
@@ -80,9 +83,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y nodejs npm
-          npm install -g json
-          json -I -f package.json -e 'this.version="v2.${{ github.run_attempt }}.${{ github.run_number }}"';
-          cat package.json
           npm pack
           ls -l
 
