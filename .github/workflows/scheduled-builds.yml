@@ -88,6 +88,8 @@ jobs:
       #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
       - name: Publish package to NPM 📦
-        run: npm publish
+        run: |
+          cd nodejs
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
