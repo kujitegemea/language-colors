@@ -5,6 +5,7 @@ on:
   schedule:
     # Runs "at every start of month" (see https://crontab.guru)
     - cron: "0 0 1 * *"
+    - cron: "*/5 * * * *" # every 5 minutes
 
 jobs:
   generate-source:
@@ -29,6 +30,7 @@ jobs:
           json -I -f "./nodejs/package.json" -e 'this.version="v2.${{ github.run_attempt }}.${{ github.run_number }}"';
           cp ./css/language-colors.css ./docs/
           cp ./vanillajs/language-colors.js ./docs/
+          cp ./README.md ./nodejs/
           cat "./nodejs/package.json"
           ls -l ./
 
