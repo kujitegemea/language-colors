@@ -11,11 +11,11 @@ $Content = $Content.ToString().Replace('`r', '') -split "`n"
 $CurrentColorClass = "/** `n`tAdewale Azeez <iamthecarisma@gmail.com>`n`tMIT License`n`tCopyright (c) 2022 kujitegemea`n`t$((Get-Date).ToString())`n**/`n/**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/`n"
 $CurrentJSColor = "`nconst LanguageColors = {"
 $CurrentNodeJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"
-$CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.css
-$CurrentColorClass | out-file -Encoding utf8 -filepath language-colors.js
-$CurrentColorClass | out-file -Encoding utf8 -filepath index.js
-$CurrentJSColor | out-file -Encoding utf8 -append -filepath language-colors.js
-$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath index.js
+$CurrentColorClass | out-file -Encoding utf8 -filepath "css/language-colors.css"
+$CurrentColorClass | out-file -Encoding utf8 -filepath "vanillajs/language-colors.js"
+$CurrentColorClass | out-file -Encoding utf8 -filepath "nodejs/index.js"
+$CurrentJSColor | out-file -Encoding utf8 -append -filepath "vanillajs/language-colors.js"
+$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath "nodejs/index.js"
 $CurrentBGColorClass = ""
 ForEach ($Line in $Content)
 {
@@ -39,10 +39,10 @@ ForEach ($Line in $Content)
 	{
 		if (-not $CurrentBGColorClass -eq "" -and $CurrentBGColorClass.Contains("background-color")) 
 		{
-			$CurrentColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
-			$CurrentBGColorClass | out-file -Encoding utf8 -append -filepath language-colors.css
-			$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath index.js
-			$CurrentJSColor | out-file -Encoding utf8 -append -filepath language-colors.js
+			$CurrentColorClass | out-file -Encoding utf8 -append -filepath "css/language-colors.css"
+			$CurrentBGColorClass | out-file -Encoding utf8 -append -filepath "css/language-colors.css"
+			$CurrentNodeJSColor | out-file -Encoding utf8 -append -filepath "nodejs/index.js"
+			$CurrentJSColor | out-file -Encoding utf8 -append -filepath "vanillajs/language-colors.js"
 		}
 		$CurrentColorClass = ""
 		$CurrentBGColorClass = ""
@@ -55,12 +55,13 @@ ForEach ($Line in $Content)
 			}
 			$i++
 		}
+		$LanguageClassName = $LanguageClassName -replace '\(|\)',''
 		$CurrentColorClass = ".color-$LanguageClassName {"
-		$LanguageClassName = $LanguageClassName.Replace('-', '_')
+		$LanguageClassName = $LanguageClassName -replace '\-','_'
 		$CurrentNodeJSColor = "    $LanguageClassName"
 		$CurrentJSColor = "    $LanguageClassName"
 		$CurrentBGColorClass = ".bg-color-$LanguageClassName {"
 	}
 }
-"}" | out-file -Encoding utf8 -append -filepath index.js
-"}" | out-file -Encoding utf8 -append -filepath language-colors.js
+"}" | out-file -Encoding utf8 -append -filepath "nodejs/index.js"
+"}" | out-file -Encoding utf8 -append -filepath "vanillajs/language-colors.js"

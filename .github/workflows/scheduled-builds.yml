@@ -24,9 +24,24 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y powershell
           pwsh -noprofile -executionpolicy bypass -file language-colors.ps1
-          cp ./language-colors.css ./docs/
-          cp ./language-colors.js ./docs/
+          cp ./vanillajs/language-colors.css ./docs/
+          cp ./nodejs/language-colors.js ./docs/
           ls -l ./docs/
+
+      # should push to main branch
+
+  run-tests:
+    name: Generate Source And Update Repo
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run NodeJS Test
+        run: |
+          cd nodejs
+          npm test
 
       # should push to main branch
 
@@ -54,9 +69,9 @@ jobs:
       #     prerelease: false
       #     title: "v2.${{ github.run_attempt }}.${{ github.run_number }}"
       #     files: |
-      #       language-colors.css
-      #       language-colors.js
-      #       language-colors.ps1
+      #       "css/language-colors.css"
+      #       "vanillajs/language-colors.js"
+      #       "language-colors.ps1"
       #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
       - name: Build Node Package
