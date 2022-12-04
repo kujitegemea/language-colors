@@ -39,7 +39,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Changelog
         uses: scottbrenner/generate-changelog-action@master
         id: Changelog
@@ -57,6 +57,7 @@ jobs:
       #       language-colors.css
       #       language-colors.js
       #       language-colors.ps1
+      #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
       - name: Build Node Package
         run: |

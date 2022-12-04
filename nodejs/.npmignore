@@ -2,13 +2,13 @@
 # For node js publish we ignore all the other 
 # Programming languages implementations
 
-/.git/
+*/.git/
 *dist/
 *build/
 
-/test/
-/docs/
-/node_modules/
+*/test/
+*/docs/
+*/node_modules/
 
 *.zip
 *.tgz

@@ -7,7 +7,7 @@ $NumValueArray = "zero", "one", "two", "three", "four", "five", "six", "seven", 
 $LinguistGrammerUrl = "https://rawgit.com/github/linguist/master/lib/linguist/languages.yml"
 $Content = Invoke-WebRequest -Uri $LinguistGrammerUrl -UseBasicParsing
 $Content = $Content.ToString().Replace('`r', '') -split "`n"
-"$Content" | out-file -Encoding utf8 -filepath test/languages.yml
+[IO.File]::WriteAllLines("test/languages.yml", $Content)
 $CurrentColorClass = "/** `n`tAdewale Azeez <iamthecarisma@gmail.com>`n`tMIT License`n`tCopyright (c) 2022 kujitegemea`n`t$((Get-Date).ToString())`n**/`n/**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/`n"
 $CurrentJSColor = "`nconst LanguageColors = {"
 $CurrentNodeJSColor = "`nconst Color = require(`"color`")`n`nmodule.exports = {"

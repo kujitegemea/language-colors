@@ -4,7 +4,7 @@
   "description": "GitHub programming languages color codes in CSS, NodeJS and Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test_index.js"
+    "test": "node ../test/test_nodejs.js"
   },
   "repository": {
     "type": "git",
