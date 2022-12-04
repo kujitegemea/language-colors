@@ -10,7 +10,7 @@ jobs:
     name: Generate Source And Update Repo
     permissions: write-all
     runs-on: ubuntu-latest
-    #if: github.event_name != 'push'
+    if: github.event_name != 'push'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -38,6 +38,7 @@ jobs:
     permissions: write-all
     needs: generate-source
     runs-on: ubuntu-latest
+    if: github.event_name != 'push'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -87,9 +88,13 @@ jobs:
       #       "vanillajs/language-colors.js"
       #       "nodejs/language-colors-2.${{ github.run_attempt }}.${{ github.run_number }}.tgz"
 
+
+      - uses: actions/setup-node@v1
+        with:
+          registry-url: https://registry.npmjs.org/
       - name: Publish package to NPM 📦
         run: |
           cd nodejs
-          npm publish
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
