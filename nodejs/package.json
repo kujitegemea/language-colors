@@ -1,6 +1,6 @@
 {
   "name": "language-colors",
-  "version": "v2.1.39",
+  "version": "v2.1.41",
   "description": "GitHub programming languages color codes in CSS, NodeJS and Javascript",
   "main": "index.js",
   "scripts": {
