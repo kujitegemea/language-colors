@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	02/01/2023 00:39:58
+	03/01/2023 00:40:04
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -88,6 +88,7 @@ const LanguageColors = {
     ceylon : "#dfa535",
     chapel : "#8dc63f",
     chuck : "#3f8000",
+    circom : "#707575",
     cirru : "#ccccff",
     clarion : "#db901e",
     clarity : "#5546ff",
@@ -125,6 +126,7 @@ const LanguageColors = {
     directx_3d_file : "#aace60",
     dockerfile : "#384d54",
     dogescript : "#cca760",
+    dotenv : "#e5d559",
     dylan : "#6c616e",
     e : "#ccce35",
     ecl : "#8a1267",
@@ -158,7 +160,7 @@ const LanguageColors = {
     forth : "#341708",
     fortran : "#4d41b1",
     fortran_free_form : "#4d41b1",
-    freebasic : "#867db1",
+    freebasic : "#141AC9",
     freemarker : "#0050b2",
     frege : "#00cafe",
     futhark : "#5f021f",
@@ -191,6 +193,7 @@ const LanguageColors = {
     go : "#00ADD8",
     go_checksums : "#00ADD8",
     go_module : "#00ADD8",
+    godot_resource : "#355570",
     golo : "#88562A",
     gosu : "#82937f",
     grace : "#615f8b",
@@ -201,6 +204,7 @@ const LanguageColors = {
     groovy : "#4298b8",
     groovy_server_pages : "#4298b8",
     haproxy : "#106da9",
+    hcl : "#844FBA",
     hlsl : "#aace60",
     hocon : "#9ff8ee",
     html : "#e34c26",
@@ -234,6 +238,7 @@ const LanguageColors = {
     isabelle_root : "#FEFE00",
     j : "#9EEDFF",
     jar_manifest : "#b07219",
+    jcl : "#d90e09",
     jflex : "#DBCA00",
     json : "#292929",
     json_with_comments : "#292929",
@@ -256,9 +261,11 @@ const LanguageColors = {
     jsonnet : "#0064bd",
     julia : "#a270ba",
     jupyter_notebook : "#DA5B0B",
+    just : "#384d54",
     krl : "#28430A",
     kaitai_struct : "#773b37",
     kakounescript : "#6f8042",
+    kerboscript : "#41adf0",
     kicad_layout : "#2f4aab",
     kicad_legacy_layout : "#2f4aab",
     kicad_schematic : "#2f4aab",
@@ -371,6 +378,7 @@ const LanguageColors = {
     picolisp : "#6067af",
     piglatin : "#fcd7de",
     pike : "#005390",
+    plantuml : "#fbbd16",
     pogoscript : "#d80074",
     polar : "#ae81ff",
     portugol : "#f8bd00",
@@ -388,6 +396,7 @@ const LanguageColors = {
     puppet : "#302B6D",
     purebasic : "#5a6986",
     purescript : "#1D222D",
+    pyret : "#ee1e10",
     python : "#3572A5",
     python_console : "#3572A5",
     python_traceback : "#3572A5",
@@ -540,7 +549,6 @@ const LanguageColors = {
     fish : "#4aae47",
     hoon : "#00b171",
     jq : "#c7254e",
-    just : "#384d54",
     kvlang : "#1da6e0",
     mirc_script : "#3d57c3",
     mcfunction : "#E22837",

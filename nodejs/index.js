@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	02/01/2023 00:39:58
+	03/01/2023 00:40:04
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -90,6 +90,7 @@ module.exports = {
     ceylon : Color('#dfa535'),
     chapel : Color('#8dc63f'),
     chuck : Color('#3f8000'),
+    circom : Color('#707575'),
     cirru : Color('#ccccff'),
     clarion : Color('#db901e'),
     clarity : Color('#5546ff'),
@@ -127,6 +128,7 @@ module.exports = {
     directx_3d_file : Color('#aace60'),
     dockerfile : Color('#384d54'),
     dogescript : Color('#cca760'),
+    dotenv : Color('#e5d559'),
     dylan : Color('#6c616e'),
     e : Color('#ccce35'),
     ecl : Color('#8a1267'),
@@ -160,7 +162,7 @@ module.exports = {
     forth : Color('#341708'),
     fortran : Color('#4d41b1'),
     fortran_free_form : Color('#4d41b1'),
-    freebasic : Color('#867db1'),
+    freebasic : Color('#141AC9'),
     freemarker : Color('#0050b2'),
     frege : Color('#00cafe'),
     futhark : Color('#5f021f'),
@@ -193,6 +195,7 @@ module.exports = {
     go : Color('#00ADD8'),
     go_checksums : Color('#00ADD8'),
     go_module : Color('#00ADD8'),
+    godot_resource : Color('#355570'),
     golo : Color('#88562A'),
     gosu : Color('#82937f'),
     grace : Color('#615f8b'),
@@ -203,6 +206,7 @@ module.exports = {
     groovy : Color('#4298b8'),
     groovy_server_pages : Color('#4298b8'),
     haproxy : Color('#106da9'),
+    hcl : Color('#844FBA'),
     hlsl : Color('#aace60'),
     hocon : Color('#9ff8ee'),
     html : Color('#e34c26'),
@@ -236,6 +240,7 @@ module.exports = {
     isabelle_root : Color('#FEFE00'),
     j : Color('#9EEDFF'),
     jar_manifest : Color('#b07219'),
+    jcl : Color('#d90e09'),
     jflex : Color('#DBCA00'),
     json : Color('#292929'),
     json_with_comments : Color('#292929'),
@@ -258,9 +263,11 @@ module.exports = {
     jsonnet : Color('#0064bd'),
     julia : Color('#a270ba'),
     jupyter_notebook : Color('#DA5B0B'),
+    just : Color('#384d54'),
     krl : Color('#28430A'),
     kaitai_struct : Color('#773b37'),
     kakounescript : Color('#6f8042'),
+    kerboscript : Color('#41adf0'),
     kicad_layout : Color('#2f4aab'),
     kicad_legacy_layout : Color('#2f4aab'),
     kicad_schematic : Color('#2f4aab'),
@@ -373,6 +380,7 @@ module.exports = {
     picolisp : Color('#6067af'),
     piglatin : Color('#fcd7de'),
     pike : Color('#005390'),
+    plantuml : Color('#fbbd16'),
     pogoscript : Color('#d80074'),
     polar : Color('#ae81ff'),
     portugol : Color('#f8bd00'),
@@ -390,6 +398,7 @@ module.exports = {
     puppet : Color('#302B6D'),
     purebasic : Color('#5a6986'),
     purescript : Color('#1D222D'),
+    pyret : Color('#ee1e10'),
     python : Color('#3572A5'),
     python_console : Color('#3572A5'),
     python_traceback : Color('#3572A5'),
@@ -542,7 +551,6 @@ module.exports = {
     fish : Color('#4aae47'),
     hoon : Color('#00b171'),
     jq : Color('#c7254e'),
-    just : Color('#384d54'),
     kvlang : Color('#1da6e0'),
     mirc_script : Color('#3d57c3'),
     mcfunction : Color('#E22837'),
