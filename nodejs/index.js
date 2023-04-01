@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	03/01/2023 00:40:04
+	04/01/2023 00:32:56
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -144,6 +144,7 @@ module.exports = {
     elixir : Color('#6e4a7e'),
     elm : Color('#60B5CC'),
     elvish : Color('#55BB55'),
+    elvish_transcript : Color('#55BB55'),
     emacs_lisp : Color('#c065db'),
     emberscript : Color('#FFF4F3'),
     erlang : Color('#B83998'),
@@ -464,6 +465,7 @@ module.exports = {
     smalltalk : Color('#596706'),
     smarty : Color('#f0c040'),
     smithy : Color('#c44536'),
+    snakemake : Color('#419179'),
     solidity : Color('#AA6746'),
     sourcepawn : Color('#f69e1d'),
     squirrel : Color('#800000'),
@@ -477,6 +479,7 @@ module.exports = {
     sugarss : Color('#2fcc9f'),
     supercollider : Color('#46390b'),
     svelte : Color('#ff3e00'),
+    sway : Color('#dea584'),
     swift : Color('#F05138'),
     systemverilog : Color('#DAE1C2'),
     ti_program : Color('#A0AA87'),

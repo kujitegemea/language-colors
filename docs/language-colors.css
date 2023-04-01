@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	03/01/2023 00:40:04
+	04/01/2023 00:32:56
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -274,6 +274,8 @@
 .bg-color-elm { background-color: #60B5CC !important; }
 .color-elvish { color: #55BB55 !important; }
 .bg-color-elvish { background-color: #55BB55 !important; }
+.color-elvish-transcript { color: #55BB55 !important; }
+.bg-color-elvish_transcript { background-color: #55BB55 !important; }
 .color-emacs-lisp { color: #c065db !important; }
 .bg-color-emacs_lisp { background-color: #c065db !important; }
 .color-emberscript { color: #FFF4F3 !important; }
@@ -914,6 +916,8 @@
 .bg-color-smarty { background-color: #f0c040 !important; }
 .color-smithy { color: #c44536 !important; }
 .bg-color-smithy { background-color: #c44536 !important; }
+.color-snakemake { color: #419179 !important; }
+.bg-color-snakemake { background-color: #419179 !important; }
 .color-solidity { color: #AA6746 !important; }
 .bg-color-solidity { background-color: #AA6746 !important; }
 .color-sourcepawn { color: #f69e1d !important; }
@@ -940,6 +944,8 @@
 .bg-color-supercollider { background-color: #46390b !important; }
 .color-svelte { color: #ff3e00 !important; }
 .bg-color-svelte { background-color: #ff3e00 !important; }
+.color-sway { color: #dea584 !important; }
+.bg-color-sway { background-color: #dea584 !important; }
 .color-swift { color: #F05138 !important; }
 .bg-color-swift { background-color: #F05138 !important; }
 .color-systemverilog { color: #DAE1C2 !important; }
