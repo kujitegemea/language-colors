@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	05/01/2023 00:33:03
+	06/01/2023 00:44:53
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -115,6 +115,7 @@ const LanguageColors = {
     cypher : "#34c0eb",
     cython : "#fedf5b",
     d : "#ba595e",
+    d2 : "#526ee8",
     dm : "#447265",
     dafny : "#FFEC25",
     darcs_patch : "#8eff23",
@@ -194,6 +195,7 @@ const LanguageColors = {
     go : "#00ADD8",
     go_checksums : "#00ADD8",
     go_module : "#00ADD8",
+    go_workspace : "#00ADD8",
     godot_resource : "#355570",
     golo : "#88562A",
     gosu : "#82937f",
@@ -293,6 +295,7 @@ const LanguageColors = {
     lua : "#000080",
     matlab : "#e16737",
     maxscript : "#00a6a6",
+    mdx : "#fcb32c",
     mlir : "#5EC8DB",
     mql4 : "#62A8D6",
     mql5 : "#4A76B8",
@@ -339,11 +342,12 @@ const LanguageColors = {
     nu : "#c9df40",
     numpy : "#9C8AF9",
     nunjucks : "#3d8137",
+    nushell : "#4E9906",
     oasv2_json : "#85ea2d",
     oasv2_yaml : "#85ea2d",
     oasv3_json : "#85ea2d",
     oasv3_yaml : "#85ea2d",
-    ocaml : "#3be133",
+    ocaml : "#ef7a08",
     objectscript : "#424893",
     objective_c : "#438eff",
     objective_cpp : "#6866fb",
@@ -369,6 +373,7 @@ const LanguageColors = {
     plsql : "#dad8d8",
     plpgsql : "#336790",
     pov_ray_sdl : "#6bac65",
+    pact : "#F7A8B8",
     pan : "#cc0000",
     papyrus : "#6600cc",
     parrot : "#f3ca0a",
@@ -407,6 +412,7 @@ const LanguageColors = {
     quake : "#882233",
     r : "#198CE7",
     raml : "#77d9fb",
+    rbs : "#701516",
     rdoc : "#701516",
     rexx : "#d90e09",
     rmarkdown : "#198ce7",
@@ -481,6 +487,7 @@ const LanguageColors = {
     swift : "#F05138",
     systemverilog : "#DAE1C2",
     ti_program : "#A0AA87",
+    tl_verilog : "#C40023",
     tla : "#4b0079",
     toml : "#9c4221",
     tsql : "#e38c00",
@@ -521,6 +528,7 @@ const LanguageColors = {
     vyper : "#2980b9",
     web_ontology_language : "#5b70bd",
     webassembly : "#04133b",
+    webassembly_interface_type : "#6250e7",
     whiley : "#d5c397",
     wikitext : "#fc5757",
     windows_registry_entries : "#52d5ff",

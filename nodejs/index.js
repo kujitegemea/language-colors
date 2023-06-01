@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	05/01/2023 00:33:03
+	06/01/2023 00:44:53
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -117,6 +117,7 @@ module.exports = {
     cypher : Color('#34c0eb'),
     cython : Color('#fedf5b'),
     d : Color('#ba595e'),
+    d2 : Color('#526ee8'),
     dm : Color('#447265'),
     dafny : Color('#FFEC25'),
     darcs_patch : Color('#8eff23'),
@@ -196,6 +197,7 @@ module.exports = {
     go : Color('#00ADD8'),
     go_checksums : Color('#00ADD8'),
     go_module : Color('#00ADD8'),
+    go_workspace : Color('#00ADD8'),
     godot_resource : Color('#355570'),
     golo : Color('#88562A'),
     gosu : Color('#82937f'),
@@ -295,6 +297,7 @@ module.exports = {
     lua : Color('#000080'),
     matlab : Color('#e16737'),
     maxscript : Color('#00a6a6'),
+    mdx : Color('#fcb32c'),
     mlir : Color('#5EC8DB'),
     mql4 : Color('#62A8D6'),
     mql5 : Color('#4A76B8'),
@@ -341,11 +344,12 @@ module.exports = {
     nu : Color('#c9df40'),
     numpy : Color('#9C8AF9'),
     nunjucks : Color('#3d8137'),
+    nushell : Color('#4E9906'),
     oasv2_json : Color('#85ea2d'),
     oasv2_yaml : Color('#85ea2d'),
     oasv3_json : Color('#85ea2d'),
     oasv3_yaml : Color('#85ea2d'),
-    ocaml : Color('#3be133'),
+    ocaml : Color('#ef7a08'),
     objectscript : Color('#424893'),
     objective_c : Color('#438eff'),
     objective_cpp : Color('#6866fb'),
@@ -371,6 +375,7 @@ module.exports = {
     plsql : Color('#dad8d8'),
     plpgsql : Color('#336790'),
     pov_ray_sdl : Color('#6bac65'),
+    pact : Color('#F7A8B8'),
     pan : Color('#cc0000'),
     papyrus : Color('#6600cc'),
     parrot : Color('#f3ca0a'),
@@ -409,6 +414,7 @@ module.exports = {
     quake : Color('#882233'),
     r : Color('#198CE7'),
     raml : Color('#77d9fb'),
+    rbs : Color('#701516'),
     rdoc : Color('#701516'),
     rexx : Color('#d90e09'),
     rmarkdown : Color('#198ce7'),
@@ -483,6 +489,7 @@ module.exports = {
     swift : Color('#F05138'),
     systemverilog : Color('#DAE1C2'),
     ti_program : Color('#A0AA87'),
+    tl_verilog : Color('#C40023'),
     tla : Color('#4b0079'),
     toml : Color('#9c4221'),
     tsql : Color('#e38c00'),
@@ -523,6 +530,7 @@ module.exports = {
     vyper : Color('#2980b9'),
     web_ontology_language : Color('#5b70bd'),
     webassembly : Color('#04133b'),
+    webassembly_interface_type : Color('#6250e7'),
     whiley : Color('#d5c397'),
     wikitext : Color('#fc5757'),
     windows_registry_entries : Color('#52d5ff'),

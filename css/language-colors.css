@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	05/01/2023 00:33:03
+	06/01/2023 00:44:53
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -220,6 +220,8 @@
 .bg-color-cython { background-color: #fedf5b !important; }
 .color-d { color: #ba595e !important; }
 .bg-color-d { background-color: #ba595e !important; }
+.color-d2 { color: #526ee8 !important; }
+.bg-color-d2 { background-color: #526ee8 !important; }
 .color-dm { color: #447265 !important; }
 .bg-color-dm { background-color: #447265 !important; }
 .color-dafny { color: #FFEC25 !important; }
@@ -378,6 +380,8 @@
 .bg-color-go_checksums { background-color: #00ADD8 !important; }
 .color-go-module { color: #00ADD8 !important; }
 .bg-color-go_module { background-color: #00ADD8 !important; }
+.color-go-workspace { color: #00ADD8 !important; }
+.bg-color-go_workspace { background-color: #00ADD8 !important; }
 .color-godot-resource { color: #355570 !important; }
 .bg-color-godot_resource { background-color: #355570 !important; }
 .color-golo { color: #88562A !important; }
@@ -576,6 +580,8 @@
 .bg-color-matlab { background-color: #e16737 !important; }
 .color-maxscript { color: #00a6a6 !important; }
 .bg-color-maxscript { background-color: #00a6a6 !important; }
+.color-mdx { color: #fcb32c !important; }
+.bg-color-mdx { background-color: #fcb32c !important; }
 .color-mlir { color: #5EC8DB !important; }
 .bg-color-mlir { background-color: #5EC8DB !important; }
 .color-mql4 { color: #62A8D6 !important; }
@@ -668,6 +674,8 @@
 .bg-color-numpy { background-color: #9C8AF9 !important; }
 .color-nunjucks { color: #3d8137 !important; }
 .bg-color-nunjucks { background-color: #3d8137 !important; }
+.color-nushell { color: #4E9906 !important; }
+.bg-color-nushell { background-color: #4E9906 !important; }
 .color-oasv2-json { color: #85ea2d !important; }
 .bg-color-oasv2_json { background-color: #85ea2d !important; }
 .color-oasv2-yaml { color: #85ea2d !important; }
@@ -676,8 +684,8 @@
 .bg-color-oasv3_json { background-color: #85ea2d !important; }
 .color-oasv3-yaml { color: #85ea2d !important; }
 .bg-color-oasv3_yaml { background-color: #85ea2d !important; }
-.color-ocaml { color: #3be133 !important; }
-.bg-color-ocaml { background-color: #3be133 !important; }
+.color-ocaml { color: #ef7a08 !important; }
+.bg-color-ocaml { background-color: #ef7a08 !important; }
 .color-objectscript { color: #424893 !important; }
 .bg-color-objectscript { background-color: #424893 !important; }
 .color-objective-c { color: #438eff !important; }
@@ -728,6 +736,8 @@
 .bg-color-plpgsql { background-color: #336790 !important; }
 .color-pov-ray-sdl { color: #6bac65 !important; }
 .bg-color-pov_ray_sdl { background-color: #6bac65 !important; }
+.color-pact { color: #F7A8B8 !important; }
+.bg-color-pact { background-color: #F7A8B8 !important; }
 .color-pan { color: #cc0000 !important; }
 .bg-color-pan { background-color: #cc0000 !important; }
 .color-papyrus { color: #6600cc !important; }
@@ -804,6 +814,8 @@
 .bg-color-r { background-color: #198CE7 !important; }
 .color-raml { color: #77d9fb !important; }
 .bg-color-raml { background-color: #77d9fb !important; }
+.color-rbs { color: #701516 !important; }
+.bg-color-rbs { background-color: #701516 !important; }
 .color-rdoc { color: #701516 !important; }
 .bg-color-rdoc { background-color: #701516 !important; }
 .color-rexx { color: #d90e09 !important; }
@@ -952,6 +964,8 @@
 .bg-color-systemverilog { background-color: #DAE1C2 !important; }
 .color-ti-program { color: #A0AA87 !important; }
 .bg-color-ti_program { background-color: #A0AA87 !important; }
+.color-tl-verilog { color: #C40023 !important; }
+.bg-color-tl_verilog { background-color: #C40023 !important; }
 .color-tla { color: #4b0079 !important; }
 .bg-color-tla { background-color: #4b0079 !important; }
 .color-toml { color: #9c4221 !important; }
@@ -1032,6 +1046,8 @@
 .bg-color-web_ontology_language { background-color: #5b70bd !important; }
 .color-webassembly { color: #04133b !important; }
 .bg-color-webassembly { background-color: #04133b !important; }
+.color-webassembly-interface-type { color: #6250e7 !important; }
+.bg-color-webassembly_interface_type { background-color: #6250e7 !important; }
 .color-whiley { color: #d5c397 !important; }
 .bg-color-whiley { background-color: #d5c397 !important; }
 .color-wikitext { color: #fc5757 !important; }
