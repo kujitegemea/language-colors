@@ -2841,6 +2841,15 @@ HolyC:
   codemirror_mode: clike
   codemirror_mime_type: text/x-csrc
   language_id: 928121743
+Hosts File:
+  type: data
+  color: "#308888"
+  filenames:
+  - HOSTS
+  - hosts
+  tm_scope: source.hosts
+  ace_mode: text
+  language_id: 231021894
 Hy:
   type: programming
   ace_mode: text
@@ -2899,7 +2908,9 @@ INI:
   - ".coveragerc"
   - ".flake8"
   - ".pylintrc"
+  - HOSTS
   - buildozer.spec
+  - hosts
   - pylintrc
   - vlcrc
   tm_scope: source.ini
@@ -3804,9 +3815,8 @@ LookML:
   codemirror_mime_type: text/x-yaml
   color: "#652B81"
   extensions:
+  - ".lkml"
   - ".lookml"
-  - ".model.lkml"
-  - ".view.lkml"
   tm_scope: source.yaml
   language_id: 211
 LoomScript:
@@ -7194,7 +7204,7 @@ VBA:
   - ".cls"
   - ".frm"
   - ".vba"
-  tm_scope: source.vbnet
+  tm_scope: source.vba
   aliases:
   - visual basic for applications
   ace_mode: text
@@ -7392,6 +7402,24 @@ Vyper:
   ace_mode: text
   tm_scope: source.vyper
   language_id: 1055641948
+WDL:
+  aliases:
+  - Workflow Description Language
+  type: programming
+  color: "#42f1f4"
+  extensions:
+  - ".wdl"
+  tm_scope: source.wdl
+  ace_mode: text
+  language_id: 374521672
+WGSL:
+  type: programming
+  color: "#1a5e9a"
+  extensions:
+  - ".wgsl"
+  tm_scope: source.wgsl
+  ace_mode: text
+  language_id: 836605993
 Wavefront Material:
   type: data
   extensions:
@@ -8161,14 +8189,6 @@ sed:
   ace_mode: text
   tm_scope: source.sed
   language_id: 847830017
-wdl:
-  type: programming
-  color: "#42f1f4"
-  extensions:
-  - ".wdl"
-  tm_scope: source.wdl
-  ace_mode: text
-  language_id: 374521672
 wisp:
   type: programming
   ace_mode: clojure

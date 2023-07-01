@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	06/01/2023 00:44:53
+	07/01/2023 00:44:09
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -228,6 +228,7 @@ module.exports = {
     haxe : Color('#df7900'),
     hiveql : Color('#dce200'),
     holyc : Color('#ffefaf'),
+    hosts_file : Color('#308888'),
     hy : Color('#7790B2'),
     idl : Color('#a3522f'),
     igor_pro : Color('#0000cc'),
@@ -528,6 +529,8 @@ module.exports = {
     volt : Color('#1F1F1F'),
     vue : Color('#41b883'),
     vyper : Color('#2980b9'),
+    wdl : Color('#42f1f4'),
+    wgsl : Color('#1a5e9a'),
     web_ontology_language : Color('#5b70bd'),
     webassembly : Color('#04133b'),
     webassembly_interface_type : Color('#6250e7'),
@@ -572,6 +575,5 @@ module.exports = {
     q : Color('#0040cd'),
     restructuredtext : Color('#141414'),
     sed : Color('#64b970'),
-    wdl : Color('#42f1f4'),
     wisp : Color('#7582D1'),
 }

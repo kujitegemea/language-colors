@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	06/01/2023 00:44:53
+	07/01/2023 00:44:09
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -442,6 +442,8 @@
 .bg-color-hiveql { background-color: #dce200 !important; }
 .color-holyc { color: #ffefaf !important; }
 .bg-color-holyc { background-color: #ffefaf !important; }
+.color-hosts-file { color: #308888 !important; }
+.bg-color-hosts_file { background-color: #308888 !important; }
 .color-hy { color: #7790B2 !important; }
 .bg-color-hy { background-color: #7790B2 !important; }
 .color-idl { color: #a3522f !important; }
@@ -1042,6 +1044,10 @@
 .bg-color-vue { background-color: #41b883 !important; }
 .color-vyper { color: #2980b9 !important; }
 .bg-color-vyper { background-color: #2980b9 !important; }
+.color-wdl { color: #42f1f4 !important; }
+.bg-color-wdl { background-color: #42f1f4 !important; }
+.color-wgsl { color: #1a5e9a !important; }
+.bg-color-wgsl { background-color: #1a5e9a !important; }
 .color-web-ontology-language { color: #5b70bd !important; }
 .bg-color-web_ontology_language { background-color: #5b70bd !important; }
 .color-webassembly { color: #04133b !important; }
@@ -1130,7 +1136,5 @@
 .bg-color-restructuredtext { background-color: #141414 !important; }
 .color-sed { color: #64b970 !important; }
 .bg-color-sed { background-color: #64b970 !important; }
-.color-wdl { color: #42f1f4 !important; }
-.bg-color-wdl { background-color: #42f1f4 !important; }
 .color-wisp { color: #7582D1 !important; }
 .bg-color-wisp { background-color: #7582D1 !important; }

@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	06/01/2023 00:44:53
+	07/01/2023 00:44:09
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -226,6 +226,7 @@ const LanguageColors = {
     haxe : "#df7900",
     hiveql : "#dce200",
     holyc : "#ffefaf",
+    hosts_file : "#308888",
     hy : "#7790B2",
     idl : "#a3522f",
     igor_pro : "#0000cc",
@@ -526,6 +527,8 @@ const LanguageColors = {
     volt : "#1F1F1F",
     vue : "#41b883",
     vyper : "#2980b9",
+    wdl : "#42f1f4",
+    wgsl : "#1a5e9a",
     web_ontology_language : "#5b70bd",
     webassembly : "#04133b",
     webassembly_interface_type : "#6250e7",
@@ -570,6 +573,5 @@ const LanguageColors = {
     q : "#0040cd",
     restructuredtext : "#141414",
     sed : "#64b970",
-    wdl : "#42f1f4",
     wisp : "#7582D1",
 }
