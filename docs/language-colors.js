@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	09/01/2023 00:30:52
+	10/01/2023 00:33:41
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -62,6 +62,7 @@ const LanguageColors = {
     blitzbasic : "#00FFAE",
     blitzmax : "#cd6400",
     bluespec : "#12223c",
+    bluespec_bh : "#12223c",
     boo : "#d4bec1",
     boogie : "#c80fa0",
     brainfuck : "#2F2530",
@@ -201,6 +202,7 @@ const LanguageColors = {
     gosu : "#82937f",
     grace : "#615f8b",
     gradle : "#02303a",
+    gradle_kotlin_dsl : "#02303a",
     grammatical_framework : "#ff0000",
     graphql : "#e10098",
     graphviz_dot : "#2596be",
@@ -431,6 +433,7 @@ const LanguageColors = {
     red : "#f50000",
     regular_expression : "#009a00",
     renpy : "#ff7f7f",
+    rez : "#FFDAB3",
     ring : "#2D54CB",
     riot : "#A71E49",
     robotframework : "#00c0b5",
@@ -485,6 +488,7 @@ const LanguageColors = {
     supercollider : "#46390b",
     svelte : "#ff3e00",
     sway : "#dea584",
+    sweave : "#198ce7",
     swift : "#F05138",
     systemverilog : "#DAE1C2",
     ti_program : "#A0AA87",
@@ -505,6 +509,7 @@ const LanguageColors = {
     turing : "#cf142b",
     twig : "#c1d026",
     typescript : "#3178c6",
+    typst : "#239dad",
     unified_parallel_c : "#4e3617",
     unity3d_asset : "#222c37",
     uno : "#9933cc",

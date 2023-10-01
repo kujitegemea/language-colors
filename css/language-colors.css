@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	09/01/2023 00:30:52
+	10/01/2023 00:33:41
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -114,6 +114,8 @@
 .bg-color-blitzmax { background-color: #cd6400 !important; }
 .color-bluespec { color: #12223c !important; }
 .bg-color-bluespec { background-color: #12223c !important; }
+.color-bluespec-bh { color: #12223c !important; }
+.bg-color-bluespec_bh { background-color: #12223c !important; }
 .color-boo { color: #d4bec1 !important; }
 .bg-color-boo { background-color: #d4bec1 !important; }
 .color-boogie { color: #c80fa0 !important; }
@@ -392,6 +394,8 @@
 .bg-color-grace { background-color: #615f8b !important; }
 .color-gradle { color: #02303a !important; }
 .bg-color-gradle { background-color: #02303a !important; }
+.color-gradle-kotlin-dsl { color: #02303a !important; }
+.bg-color-gradle_kotlin_dsl { background-color: #02303a !important; }
 .color-grammatical-framework { color: #ff0000 !important; }
 .bg-color-grammatical_framework { background-color: #ff0000 !important; }
 .color-graphql { color: #e10098 !important; }
@@ -852,6 +856,8 @@
 .bg-color-regular_expression { background-color: #009a00 !important; }
 .color-renpy { color: #ff7f7f !important; }
 .bg-color-renpy { background-color: #ff7f7f !important; }
+.color-rez { color: #FFDAB3 !important; }
+.bg-color-rez { background-color: #FFDAB3 !important; }
 .color-ring { color: #2D54CB !important; }
 .bg-color-ring { background-color: #2D54CB !important; }
 .color-riot { color: #A71E49 !important; }
@@ -960,6 +966,8 @@
 .bg-color-svelte { background-color: #ff3e00 !important; }
 .color-sway { color: #dea584 !important; }
 .bg-color-sway { background-color: #dea584 !important; }
+.color-sweave { color: #198ce7 !important; }
+.bg-color-sweave { background-color: #198ce7 !important; }
 .color-swift { color: #F05138 !important; }
 .bg-color-swift { background-color: #F05138 !important; }
 .color-systemverilog { color: #DAE1C2 !important; }
@@ -1000,6 +1008,8 @@
 .bg-color-twig { background-color: #c1d026 !important; }
 .color-typescript { color: #3178c6 !important; }
 .bg-color-typescript { background-color: #3178c6 !important; }
+.color-typst { color: #239dad !important; }
+.bg-color-typst { background-color: #239dad !important; }
 .color-unified-parallel-c { color: #4e3617 !important; }
 .bg-color-unified_parallel_c { background-color: #4e3617 !important; }
 .color-unity3d-asset { color: #222c37 !important; }

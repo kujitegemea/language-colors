@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	09/01/2023 00:30:52
+	10/01/2023 00:33:41
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -64,6 +64,7 @@ module.exports = {
     blitzbasic : Color('#00FFAE'),
     blitzmax : Color('#cd6400'),
     bluespec : Color('#12223c'),
+    bluespec_bh : Color('#12223c'),
     boo : Color('#d4bec1'),
     boogie : Color('#c80fa0'),
     brainfuck : Color('#2F2530'),
@@ -203,6 +204,7 @@ module.exports = {
     gosu : Color('#82937f'),
     grace : Color('#615f8b'),
     gradle : Color('#02303a'),
+    gradle_kotlin_dsl : Color('#02303a'),
     grammatical_framework : Color('#ff0000'),
     graphql : Color('#e10098'),
     graphviz_dot : Color('#2596be'),
@@ -433,6 +435,7 @@ module.exports = {
     red : Color('#f50000'),
     regular_expression : Color('#009a00'),
     renpy : Color('#ff7f7f'),
+    rez : Color('#FFDAB3'),
     ring : Color('#2D54CB'),
     riot : Color('#A71E49'),
     robotframework : Color('#00c0b5'),
@@ -487,6 +490,7 @@ module.exports = {
     supercollider : Color('#46390b'),
     svelte : Color('#ff3e00'),
     sway : Color('#dea584'),
+    sweave : Color('#198ce7'),
     swift : Color('#F05138'),
     systemverilog : Color('#DAE1C2'),
     ti_program : Color('#A0AA87'),
@@ -507,6 +511,7 @@ module.exports = {
     turing : Color('#cf142b'),
     twig : Color('#c1d026'),
     typescript : Color('#3178c6'),
+    typst : Color('#239dad'),
     unified_parallel_c : Color('#4e3617'),
     unity3d_asset : Color('#222c37'),
     uno : Color('#9933cc'),
