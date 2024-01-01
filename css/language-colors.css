@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	12/01/2023 00:34:40
+	01/01/2024 00:35:40
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -268,6 +268,8 @@
 .bg-color-ecere_projects { background-color: #913960 !important; }
 .color-ecmarkup { color: #eb8131 !important; }
 .bg-color-ecmarkup { background-color: #eb8131 !important; }
+.color-edgeql { color: #31A7FF !important; }
+.bg-color-edgeql { background-color: #31A7FF !important; }
 .color-editorconfig { color: #fff1f2 !important; }
 .bg-color-editorconfig { background-color: #fff1f2 !important; }
 .color-eiffel { color: #4d6977 !important; }
@@ -348,10 +350,10 @@
 .bg-color-gemfiledotlock { background-color: #701516 !important; }
 .color-gemini { color: #ff6900 !important; }
 .bg-color-gemini { background-color: #ff6900 !important; }
-.color-genero { color: #63408e !important; }
-.bg-color-genero { background-color: #63408e !important; }
-.color-genero-forms { color: #d8df39 !important; }
-.bg-color-genero_forms { background-color: #d8df39 !important; }
+.color-genero-4gl { color: #63408e !important; }
+.bg-color-genero_4gl { background-color: #63408e !important; }
+.color-genero-per { color: #d8df39 !important; }
+.bg-color-genero_per { background-color: #d8df39 !important; }
 .color-genie { color: #fb855d !important; }
 .bg-color-genie { background-color: #fb855d !important; }
 .color-genshi { color: #951531 !important; }
@@ -372,6 +374,8 @@
 .bg-color-git_revision_list { background-color: #F44D27 !important; }
 .color-gleam { color: #ffaff3 !important; }
 .bg-color-gleam { background-color: #ffaff3 !important; }
+.color-glimmer-js { color: #F5835F !important; }
+.bg-color-glimmer_js { background-color: #F5835F !important; }
 .color-glyph { color: #c1ac7f !important; }
 .bg-color-glyph { background-color: #c1ac7f !important; }
 .color-gnuplot { color: #f0a9f0 !important; }
@@ -780,6 +784,8 @@
 .bg-color-powerbuilder { background-color: #8f0f8d !important; }
 .color-powershell { color: #012456 !important; }
 .bg-color-powershell { background-color: #012456 !important; }
+.color-praat { color: #c8506d !important; }
+.bg-color-praat { background-color: #c8506d !important; }
 .color-prisma { color: #0c344b !important; }
 .bg-color-prisma { background-color: #0c344b !important; }
 .color-processing { color: #0096D8 !important; }
@@ -964,8 +970,8 @@
 .bg-color-supercollider { background-color: #46390b !important; }
 .color-svelte { color: #ff3e00 !important; }
 .bg-color-svelte { background-color: #ff3e00 !important; }
-.color-sway { color: #dea584 !important; }
-.bg-color-sway { background-color: #dea584 !important; }
+.color-sway { color: #00F58C !important; }
+.bg-color-sway { background-color: #00F58C !important; }
 .color-sweave { color: #198ce7 !important; }
 .bg-color-sweave { background-color: #198ce7 !important; }
 .color-swift { color: #F05138 !important; }
@@ -996,12 +1002,16 @@
 .bg-color-tex { background-color: #3D6117 !important; }
 .color-terra { color: #00004c !important; }
 .bg-color-terra { background-color: #00004c !important; }
+.color-terraform-template { color: #7b42bb !important; }
+.bg-color-terraform_template { background-color: #7b42bb !important; }
 .color-textmate-properties { color: #df66e4 !important; }
 .bg-color-textmate_properties { background-color: #df66e4 !important; }
 .color-textile { color: #ffe7ac !important; }
 .bg-color-textile { background-color: #ffe7ac !important; }
 .color-thrift { color: #D12127 !important; }
 .bg-color-thrift { background-color: #D12127 !important; }
+.color-toit { color: #c2c9fb !important; }
+.bg-color-toit { background-color: #c2c9fb !important; }
 .color-turing { color: #cf142b !important; }
 .bg-color-turing { background-color: #cf142b !important; }
 .color-twig { color: #c1d026 !important; }

@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	12/01/2023 00:34:40
+	01/01/2024 00:35:40
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -141,6 +141,7 @@ module.exports = {
     easybuild : Color('#069406'),
     ecere_projects : Color('#913960'),
     ecmarkup : Color('#eb8131'),
+    edgeql : Color('#31A7FF'),
     editorconfig : Color('#fff1f2'),
     eiffel : Color('#4d6977'),
     elixir : Color('#6e4a7e'),
@@ -181,8 +182,8 @@ module.exports = {
     game_maker_language : Color('#71b417'),
     gemfiledotlock : Color('#701516'),
     gemini : Color('#ff6900'),
-    genero : Color('#63408e'),
-    genero_forms : Color('#d8df39'),
+    genero_4gl : Color('#63408e'),
+    genero_per : Color('#d8df39'),
     genie : Color('#fb855d'),
     genshi : Color('#951531'),
     gentoo_ebuild : Color('#9400ff'),
@@ -193,6 +194,7 @@ module.exports = {
     git_config : Color('#F44D27'),
     git_revision_list : Color('#F44D27'),
     gleam : Color('#ffaff3'),
+    glimmer_js : Color('#F5835F'),
     glyph : Color('#c1ac7f'),
     gnuplot : Color('#f0a9f0'),
     go : Color('#00ADD8'),
@@ -397,6 +399,7 @@ module.exports = {
     postscript : Color('#da291c'),
     powerbuilder : Color('#8f0f8d'),
     powershell : Color('#012456'),
+    praat : Color('#c8506d'),
     prisma : Color('#0c344b'),
     processing : Color('#0096D8'),
     procfile : Color('#3B2F63'),
@@ -489,7 +492,7 @@ module.exports = {
     sugarss : Color('#2fcc9f'),
     supercollider : Color('#46390b'),
     svelte : Color('#ff3e00'),
-    sway : Color('#dea584'),
+    sway : Color('#00F58C'),
     sweave : Color('#198ce7'),
     swift : Color('#F05138'),
     systemverilog : Color('#DAE1C2'),
@@ -505,9 +508,11 @@ module.exports = {
     tcl : Color('#e4cc98'),
     tex : Color('#3D6117'),
     terra : Color('#00004c'),
+    terraform_template : Color('#7b42bb'),
     textmate_properties : Color('#df66e4'),
     textile : Color('#ffe7ac'),
     thrift : Color('#D12127'),
+    toit : Color('#c2c9fb'),
     turing : Color('#cf142b'),
     twig : Color('#c1d026'),
     typescript : Color('#3178c6'),

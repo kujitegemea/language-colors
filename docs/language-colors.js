@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	12/01/2023 00:34:40
+	01/01/2024 00:35:40
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -139,6 +139,7 @@ const LanguageColors = {
     easybuild : "#069406",
     ecere_projects : "#913960",
     ecmarkup : "#eb8131",
+    edgeql : "#31A7FF",
     editorconfig : "#fff1f2",
     eiffel : "#4d6977",
     elixir : "#6e4a7e",
@@ -179,8 +180,8 @@ const LanguageColors = {
     game_maker_language : "#71b417",
     gemfiledotlock : "#701516",
     gemini : "#ff6900",
-    genero : "#63408e",
-    genero_forms : "#d8df39",
+    genero_4gl : "#63408e",
+    genero_per : "#d8df39",
     genie : "#fb855d",
     genshi : "#951531",
     gentoo_ebuild : "#9400ff",
@@ -191,6 +192,7 @@ const LanguageColors = {
     git_config : "#F44D27",
     git_revision_list : "#F44D27",
     gleam : "#ffaff3",
+    glimmer_js : "#F5835F",
     glyph : "#c1ac7f",
     gnuplot : "#f0a9f0",
     go : "#00ADD8",
@@ -395,6 +397,7 @@ const LanguageColors = {
     postscript : "#da291c",
     powerbuilder : "#8f0f8d",
     powershell : "#012456",
+    praat : "#c8506d",
     prisma : "#0c344b",
     processing : "#0096D8",
     procfile : "#3B2F63",
@@ -487,7 +490,7 @@ const LanguageColors = {
     sugarss : "#2fcc9f",
     supercollider : "#46390b",
     svelte : "#ff3e00",
-    sway : "#dea584",
+    sway : "#00F58C",
     sweave : "#198ce7",
     swift : "#F05138",
     systemverilog : "#DAE1C2",
@@ -503,9 +506,11 @@ const LanguageColors = {
     tcl : "#e4cc98",
     tex : "#3D6117",
     terra : "#00004c",
+    terraform_template : "#7b42bb",
     textmate_properties : "#df66e4",
     textile : "#ffe7ac",
     thrift : "#D12127",
+    toit : "#c2c9fb",
     turing : "#cf142b",
     twig : "#c1d026",
     typescript : "#3178c6",
