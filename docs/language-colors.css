@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	03/01/2024 00:34:48
+	04/01/2024 00:34:23
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -268,6 +268,8 @@
 .bg-color-ecere_projects { background-color: #913960 !important; }
 .color-ecmarkup { color: #eb8131 !important; }
 .bg-color-ecmarkup { background-color: #eb8131 !important; }
+.color-edge { color: #0dffe0 !important; }
+.bg-color-edge { background-color: #0dffe0 !important; }
 .color-edgeql { color: #31A7FF !important; }
 .bg-color-edgeql { background-color: #31A7FF !important; }
 .color-editorconfig { color: #fff1f2 !important; }
@@ -376,6 +378,8 @@
 .bg-color-gleam { background-color: #ffaff3 !important; }
 .color-glimmer-js { color: #F5835F !important; }
 .bg-color-glimmer_js { background-color: #F5835F !important; }
+.color-glimmer-ts { color: #3178c6 !important; }
+.bg-color-glimmer_ts { background-color: #3178c6 !important; }
 .color-glyph { color: #c1ac7f !important; }
 .bg-color-glyph { background-color: #c1ac7f !important; }
 .color-gnuplot { color: #f0a9f0 !important; }
@@ -636,6 +640,8 @@
 .bg-color-modula_2 { background-color: #10253f !important; }
 .color-modula-3 { color: #223388 !important; }
 .bg-color-modula_3 { background-color: #223388 !important; }
+.color-mojo { color: #ff4c1f !important; }
+.bg-color-mojo { background-color: #ff4c1f !important; }
 .color-monkey-c { color: #8D6747 !important; }
 .bg-color-monkey_c { background-color: #8D6747 !important; }
 .color-moonscript { color: #ff4585 !important; }
@@ -768,6 +774,8 @@
 .bg-color-piglatin { background-color: #fcd7de !important; }
 .color-pike { color: #005390 !important; }
 .bg-color-pike { background-color: #005390 !important; }
+.color-pip-requirements { color: #FFD343 !important; }
+.bg-color-pip_requirements { background-color: #FFD343 !important; }
 .color-plantuml { color: #fbbd16 !important; }
 .bg-color-plantuml { background-color: #fbbd16 !important; }
 .color-pogoscript { color: #d80074 !important; }
@@ -870,6 +878,8 @@
 .bg-color-riot { background-color: #A71E49 !important; }
 .color-robotframework { color: #00c0b5 !important; }
 .bg-color-robotframework { background-color: #00c0b5 !important; }
+.color-roc { color: #7c38f5 !important; }
+.bg-color-roc { background-color: #7c38f5 !important; }
 .color-roff { color: #ecdebe !important; }
 .bg-color-roff { background-color: #ecdebe !important; }
 .color-roff-manpage { color: #ecdebe !important; }
@@ -934,6 +944,8 @@
 .bg-color-slice { background-color: #003fa2 !important; }
 .color-slim { color: #2b2b2b !important; }
 .bg-color-slim { background-color: #2b2b2b !important; }
+.color-slint { color: #2379F4 !important; }
+.bg-color-slint { background-color: #2379F4 !important; }
 .color-smpl { color: #c94949 !important; }
 .bg-color-smpl { background-color: #c94949 !important; }
 .color-smalltalk { color: #596706 !important; }
@@ -1004,6 +1016,8 @@
 .bg-color-terra { background-color: #00004c !important; }
 .color-terraform-template { color: #7b42bb !important; }
 .bg-color-terraform_template { background-color: #7b42bb !important; }
+.color-textgrid { color: #c8506d !important; }
+.bg-color-textgrid { background-color: #c8506d !important; }
 .color-textmate-properties { color: #df66e4 !important; }
 .bg-color-textmate_properties { background-color: #df66e4 !important; }
 .color-textile { color: #ffe7ac !important; }

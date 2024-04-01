@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	03/01/2024 00:34:48
+	04/01/2024 00:34:23
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -141,6 +141,7 @@ module.exports = {
     easybuild : Color('#069406'),
     ecere_projects : Color('#913960'),
     ecmarkup : Color('#eb8131'),
+    edge : Color('#0dffe0'),
     edgeql : Color('#31A7FF'),
     editorconfig : Color('#fff1f2'),
     eiffel : Color('#4d6977'),
@@ -195,6 +196,7 @@ module.exports = {
     git_revision_list : Color('#F44D27'),
     gleam : Color('#ffaff3'),
     glimmer_js : Color('#F5835F'),
+    glimmer_ts : Color('#3178c6'),
     glyph : Color('#c1ac7f'),
     gnuplot : Color('#f0a9f0'),
     go : Color('#00ADD8'),
@@ -325,6 +327,7 @@ module.exports = {
     modelica : Color('#de1d31'),
     modula_2 : Color('#10253f'),
     modula_3 : Color('#223388'),
+    mojo : Color('#ff4c1f'),
     monkey_c : Color('#8D6747'),
     moonscript : Color('#ff4585'),
     motoko : Color('#fbb03b'),
@@ -391,6 +394,7 @@ module.exports = {
     picolisp : Color('#6067af'),
     piglatin : Color('#fcd7de'),
     pike : Color('#005390'),
+    pip_requirements : Color('#FFD343'),
     plantuml : Color('#fbbd16'),
     pogoscript : Color('#d80074'),
     polar : Color('#ae81ff'),
@@ -442,6 +446,7 @@ module.exports = {
     ring : Color('#2D54CB'),
     riot : Color('#A71E49'),
     robotframework : Color('#00c0b5'),
+    roc : Color('#7c38f5'),
     roff : Color('#ecdebe'),
     roff_manpage : Color('#ecdebe'),
     rouge : Color('#cc0088'),
@@ -474,6 +479,7 @@ module.exports = {
     slash : Color('#007eff'),
     slice : Color('#003fa2'),
     slim : Color('#2b2b2b'),
+    slint : Color('#2379F4'),
     smpl : Color('#c94949'),
     smalltalk : Color('#596706'),
     smarty : Color('#f0c040'),
@@ -509,6 +515,7 @@ module.exports = {
     tex : Color('#3D6117'),
     terra : Color('#00004c'),
     terraform_template : Color('#7b42bb'),
+    textgrid : Color('#c8506d'),
     textmate_properties : Color('#df66e4'),
     textile : Color('#ffe7ac'),
     thrift : Color('#D12127'),

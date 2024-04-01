@@ -2,7 +2,7 @@
 	Adewale Azeez <iamthecarisma@gmail.com>
 	MIT License
 	Copyright (c) 2022 kujitegemea
-	03/01/2024 00:34:48
+	04/01/2024 00:34:23
 **/
 /**THIS FILE IS AUTO GENERATED DO NOT MODIFY MANUALLY**/
 
@@ -139,6 +139,7 @@ const LanguageColors = {
     easybuild : "#069406",
     ecere_projects : "#913960",
     ecmarkup : "#eb8131",
+    edge : "#0dffe0",
     edgeql : "#31A7FF",
     editorconfig : "#fff1f2",
     eiffel : "#4d6977",
@@ -193,6 +194,7 @@ const LanguageColors = {
     git_revision_list : "#F44D27",
     gleam : "#ffaff3",
     glimmer_js : "#F5835F",
+    glimmer_ts : "#3178c6",
     glyph : "#c1ac7f",
     gnuplot : "#f0a9f0",
     go : "#00ADD8",
@@ -323,6 +325,7 @@ const LanguageColors = {
     modelica : "#de1d31",
     modula_2 : "#10253f",
     modula_3 : "#223388",
+    mojo : "#ff4c1f",
     monkey_c : "#8D6747",
     moonscript : "#ff4585",
     motoko : "#fbb03b",
@@ -389,6 +392,7 @@ const LanguageColors = {
     picolisp : "#6067af",
     piglatin : "#fcd7de",
     pike : "#005390",
+    pip_requirements : "#FFD343",
     plantuml : "#fbbd16",
     pogoscript : "#d80074",
     polar : "#ae81ff",
@@ -440,6 +444,7 @@ const LanguageColors = {
     ring : "#2D54CB",
     riot : "#A71E49",
     robotframework : "#00c0b5",
+    roc : "#7c38f5",
     roff : "#ecdebe",
     roff_manpage : "#ecdebe",
     rouge : "#cc0088",
@@ -472,6 +477,7 @@ const LanguageColors = {
     slash : "#007eff",
     slice : "#003fa2",
     slim : "#2b2b2b",
+    slint : "#2379F4",
     smpl : "#c94949",
     smalltalk : "#596706",
     smarty : "#f0c040",
@@ -507,6 +513,7 @@ const LanguageColors = {
     tex : "#3D6117",
     terra : "#00004c",
     terraform_template : "#7b42bb",
+    textgrid : "#c8506d",
     textmate_properties : "#df66e4",
     textile : "#ffe7ac",
     thrift : "#D12127",
